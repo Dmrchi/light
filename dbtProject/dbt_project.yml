@@ -1,0 +1,47 @@
+name: 'dbtProject'
+version: '1.0.0'
+config-version: 2 # Mantenha esta linha
+
+# Esta configuração diz ao dbt qual perfil de conexão usar (profiles.yml)
+profile: 'dbtProject'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# ----------------------------------------------------------------------
+# Configuração de Materialização e Esquema (Layers)
+# ----------------------------------------------------------------------
+models:
+  dbtProject: # O nome do seu projeto, usado como raiz para as configurações
+
+    # 1. Configuração Padrão
+    # Todos os modelos que não estiverem em 'staging' ou 'marts' cairão aqui.
+    # Usamos 'analytics' como esquema de destino principal.
+    +schema: analytics
+    +materialized: table
+    
+    # Remove a configuração 'example' se você não tiver mais a pasta
+    # exemplo:
+    #   +materialized: view
+    
+    # 2. Camada STAGING (models/staging/)
+    # Modelos para limpeza e padronização (transformações leves).
+    # São criados como VIEWS no esquema 'staging' para economizar tempo/recursos.
+    staging:
+      +schema: staging
+      +materialized: view
+
+    # 3. Camada MARTS (models/marts/)
+    # Dimensões e Fatos (transformações pesadas e modelos finais).
+    # São criados como TABLEs no esquema 'analytics' para performance analítica.
+    marts:
+      +schema: analytics
+      +materialized: table

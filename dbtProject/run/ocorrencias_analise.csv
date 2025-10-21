@@ -1,0 +1,1299 @@
+id_ocorrencia_fato,id_tempo,ano,mes,cidade,estado,tipo_ocorrencia,tempo_reparo_h
+705,20240130,2024.0,1.0,araújo de costela,BA,Manutenção preventiva,3.8
+39,20240130,2024.0,1.0,barbosa do campo,BA,Falta de fase,2.0
+694,20240108,2024.0,1.0,cardoso,BA,Queda de energia,5.5
+693,20240108,2024.0,1.0,cardoso,BA,Queda de energia,5.5
+694,20240108,2024.0,1.0,cardoso,BA,Queda de energia,5.5
+693,20240108,2024.0,1.0,cardoso,BA,Queda de energia,5.5
+505,20240113,2024.0,1.0,da rocha,BA,Queda de energia,1.3
+506,20240113,2024.0,1.0,da rocha,BA,Queda de energia,1.3
+505,20240113,2024.0,1.0,da rocha,BA,Queda de energia,1.3
+506,20240113,2024.0,1.0,da rocha,BA,Queda de energia,1.3
+537,20240112,2024.0,1.0,das neves grande,BA,Falta de fase,0.9
+649,20240108,2024.0,1.0,duarte,BA,Manutenção preventiva,5.1
+650,20240108,2024.0,1.0,duarte,BA,Manutenção preventiva,5.1
+649,20240108,2024.0,1.0,duarte,BA,Manutenção preventiva,5.1
+650,20240108,2024.0,1.0,duarte,BA,Manutenção preventiva,5.1
+4,20240119,2024.0,1.0,ferreira paulista,BA,Manutenção preventiva,0.7
+538,20240114,2024.0,1.0,gomes,BA,Falta de fase,5.2
+539,20240114,2024.0,1.0,gomes,BA,Falta de fase,5.2
+391,20240110,2024.0,1.0,gomes,BA,Falta de fase,5.9
+392,20240110,2024.0,1.0,gomes,BA,Falta de fase,5.9
+538,20240114,2024.0,1.0,gomes,BA,Falta de fase,5.2
+539,20240114,2024.0,1.0,gomes,BA,Falta de fase,5.2
+391,20240110,2024.0,1.0,gomes,BA,Falta de fase,5.9
+392,20240110,2024.0,1.0,gomes,BA,Falta de fase,5.9
+752,20240113,2024.0,1.0,moura,BA,Queda de energia,3.9
+751,20240113,2024.0,1.0,moura,BA,Queda de energia,3.9
+752,20240113,2024.0,1.0,moura,BA,Queda de energia,3.9
+751,20240113,2024.0,1.0,moura,BA,Queda de energia,3.9
+243,20240111,2024.0,1.0,ribeiro,BA,Queda de energia,4.6
+243,20240111,2024.0,1.0,ribeiro,BA,Queda de energia,4.6
+244,20240111,2024.0,1.0,ribeiro,BA,Queda de energia,4.6
+244,20240111,2024.0,1.0,ribeiro,BA,Queda de energia,4.6
+579,20240120,2024.0,1.0,souza de dias,BA,Manutenção preventiva,4.8
+478,20240125,2024.0,1.0,teixeira da serra,BA,Falta de fase,2.5
+312,20240121,2024.0,1.0,freitas,MG,Queda de energia,4.2
+312,20240121,2024.0,1.0,freitas,MG,Queda de energia,4.2
+313,20240121,2024.0,1.0,freitas,MG,Queda de energia,4.2
+313,20240121,2024.0,1.0,freitas,MG,Queda de energia,4.2
+476,20240119,2024.0,1.0,lima,MG,Queda de energia,2.5
+476,20240119,2024.0,1.0,lima,MG,Queda de energia,2.5
+477,20240119,2024.0,1.0,lima,MG,Queda de energia,2.5
+477,20240119,2024.0,1.0,lima,MG,Queda de energia,2.5
+86,20240129,2024.0,1.0,nunes,MG,Queda de energia,5.2
+85,20240129,2024.0,1.0,nunes,MG,Queda de energia,5.2
+86,20240129,2024.0,1.0,nunes,MG,Queda de energia,5.2
+85,20240129,2024.0,1.0,nunes,MG,Queda de energia,5.2
+672,20240103,2024.0,1.0,pires,MG,Manutenção preventiva,4.2
+367,20240118,2024.0,1.0,pires,MG,Queda de energia,3.7
+367,20240118,2024.0,1.0,pires,MG,Queda de energia,3.7
+673,20240103,2024.0,1.0,pires,MG,Manutenção preventiva,4.2
+673,20240103,2024.0,1.0,pires,MG,Manutenção preventiva,4.2
+368,20240118,2024.0,1.0,pires,MG,Queda de energia,3.7
+368,20240118,2024.0,1.0,pires,MG,Queda de energia,3.7
+672,20240103,2024.0,1.0,pires,MG,Manutenção preventiva,4.2
+426,20240121,2024.0,1.0,ramos,MG,Manutenção preventiva,2.4
+426,20240121,2024.0,1.0,ramos,MG,Manutenção preventiva,2.4
+425,20240121,2024.0,1.0,ramos,MG,Manutenção preventiva,2.4
+425,20240121,2024.0,1.0,ramos,MG,Manutenção preventiva,2.4
+621,20240102,2024.0,1.0,ribeiro de minas,MG,Manutenção preventiva,5.0
+729,20240113,2024.0,1.0,rodrigues,MG,Manutenção preventiva,3.5
+729,20240113,2024.0,1.0,rodrigues,MG,Manutenção preventiva,3.5
+730,20240113,2024.0,1.0,rodrigues,MG,Manutenção preventiva,3.5
+730,20240113,2024.0,1.0,rodrigues,MG,Manutenção preventiva,3.5
+610,20240115,2024.0,1.0,vieira,MG,Manutenção preventiva,3.3
+610,20240115,2024.0,1.0,vieira,MG,Manutenção preventiva,3.3
+609,20240115,2024.0,1.0,vieira,MG,Manutenção preventiva,3.3
+609,20240115,2024.0,1.0,vieira,MG,Manutenção preventiva,3.3
+401,20240113,2024.0,1.0,almeida de almeida,SP,Queda de energia,3.7
+13,20240102,2024.0,1.0,cardoso do norte,SP,Queda de energia,1.8
+411,20240117,2024.0,1.0,carvalho da praia,SP,Manutenção preventiva,4.1
+638,20240117,2024.0,1.0,costela,SP,Manutenção preventiva,1.9
+638,20240117,2024.0,1.0,costela,SP,Manutenção preventiva,1.9
+639,20240117,2024.0,1.0,costela,SP,Manutenção preventiva,1.9
+639,20240117,2024.0,1.0,costela,SP,Manutenção preventiva,1.9
+755,20240118,2024.0,1.0,da cunha,SP,Manutenção preventiva,5.5
+755,20240118,2024.0,1.0,da cunha,SP,Manutenção preventiva,5.5
+754,20240118,2024.0,1.0,da cunha,SP,Manutenção preventiva,5.5
+754,20240118,2024.0,1.0,da cunha,SP,Manutenção preventiva,5.5
+293,20240118,2024.0,1.0,da paz,SP,Queda de energia,5.6
+292,20240118,2024.0,1.0,da paz,SP,Queda de energia,5.6
+292,20240118,2024.0,1.0,da paz,SP,Queda de energia,5.6
+293,20240118,2024.0,1.0,da paz,SP,Queda de energia,5.6
+181,20240121,2024.0,1.0,da rocha,SP,Queda de energia,1.9
+180,20240121,2024.0,1.0,da rocha,SP,Queda de energia,1.9
+181,20240121,2024.0,1.0,da rocha,SP,Queda de energia,1.9
+180,20240121,2024.0,1.0,da rocha,SP,Queda de energia,1.9
+44,20240111,2024.0,1.0,das neves,SP,Manutenção preventiva,0.6
+44,20240111,2024.0,1.0,das neves,SP,Manutenção preventiva,0.6
+43,20240111,2024.0,1.0,das neves,SP,Manutenção preventiva,0.6
+43,20240111,2024.0,1.0,das neves,SP,Manutenção preventiva,0.6
+540,20240117,2024.0,1.0,duarte,SP,Manutenção preventiva,5.2
+540,20240117,2024.0,1.0,duarte,SP,Manutenção preventiva,5.2
+192,20240113,2024.0,1.0,duarte,SP,Queda de energia,5.2
+193,20240113,2024.0,1.0,duarte,SP,Queda de energia,5.2
+541,20240117,2024.0,1.0,duarte,SP,Manutenção preventiva,5.2
+192,20240113,2024.0,1.0,duarte,SP,Queda de energia,5.2
+193,20240113,2024.0,1.0,duarte,SP,Queda de energia,5.2
+541,20240117,2024.0,1.0,duarte,SP,Manutenção preventiva,5.2
+497,20240131,2024.0,1.0,jesus,SP,Falta de fase,0.9
+497,20240131,2024.0,1.0,jesus,SP,Falta de fase,0.9
+496,20240131,2024.0,1.0,jesus,SP,Falta de fase,0.9
+496,20240131,2024.0,1.0,jesus,SP,Falta de fase,0.9
+389,20240130,2024.0,1.0,lima do oeste,SP,Queda de energia,3.1
+358,20240103,2024.0,1.0,mendes,SP,Manutenção preventiva,5.2
+358,20240103,2024.0,1.0,mendes,SP,Manutenção preventiva,5.2
+359,20240103,2024.0,1.0,mendes,SP,Manutenção preventiva,5.2
+359,20240103,2024.0,1.0,mendes,SP,Manutenção preventiva,5.2
+626,20240115,2024.0,1.0,moraes,SP,Falta de fase,2.0
+627,20240115,2024.0,1.0,moraes,SP,Falta de fase,2.0
+626,20240115,2024.0,1.0,moraes,SP,Falta de fase,2.0
+627,20240115,2024.0,1.0,moraes,SP,Falta de fase,2.0
+133,20240115,2024.0,1.0,novaes,SP,Queda de energia,4.6
+134,20240115,2024.0,1.0,novaes,SP,Queda de energia,4.6
+133,20240115,2024.0,1.0,novaes,SP,Queda de energia,4.6
+134,20240115,2024.0,1.0,novaes,SP,Queda de energia,4.6
+713,20240122,2024.0,1.0,pinto,SP,Queda de energia,3.8
+713,20240122,2024.0,1.0,pinto,SP,Queda de energia,3.8
+712,20240122,2024.0,1.0,pinto,SP,Queda de energia,3.8
+712,20240122,2024.0,1.0,pinto,SP,Queda de energia,3.8
+148,20240113,2024.0,1.0,ramos,SP,Manutenção preventiva,3.8
+328,20240228,2024.0,2.0,aragão,BA,Queda de energia,4.0
+327,20240228,2024.0,2.0,aragão,BA,Queda de energia,4.0
+327,20240228,2024.0,2.0,aragão,BA,Queda de energia,4.0
+328,20240228,2024.0,2.0,aragão,BA,Queda de energia,4.0
+393,20240227,2024.0,2.0,barros,BA,Queda de energia,4.0
+394,20240227,2024.0,2.0,barros,BA,Queda de energia,4.0
+394,20240227,2024.0,2.0,barros,BA,Queda de energia,4.0
+393,20240227,2024.0,2.0,barros,BA,Queda de energia,4.0
+223,20240226,2024.0,2.0,caldeira de jesus,BA,Falta de fase,0.9
+736,20240216,2024.0,2.0,cardoso das pedras,BA,Queda de energia,4.2
+376,20240207,2024.0,2.0,cardoso do campo,BA,Manutenção preventiva,2.4
+748,20240222,2024.0,2.0,da costa,BA,Manutenção preventiva,5.0
+748,20240222,2024.0,2.0,da costa,BA,Manutenção preventiva,5.0
+747,20240222,2024.0,2.0,da costa,BA,Manutenção preventiva,5.0
+747,20240222,2024.0,2.0,da costa,BA,Manutenção preventiva,5.0
+702,20240212,2024.0,2.0,da cunha do galho,BA,Manutenção preventiva,1.3
+72,20240211,2024.0,2.0,da mota do campo,BA,Queda de energia,2.6
+596,20240228,2024.0,2.0,das neves paulista,BA,Queda de energia,2.2
+521,20240224,2024.0,2.0,dias da serra,BA,Falta de fase,5.2
+421,20240216,2024.0,2.0,farias do sul,BA,Manutenção preventiva,5.7
+422,20240216,2024.0,2.0,farias do sul,BA,Manutenção preventiva,5.7
+421,20240216,2024.0,2.0,farias do sul,BA,Manutenção preventiva,5.7
+422,20240216,2024.0,2.0,farias do sul,BA,Manutenção preventiva,5.7
+756,20240211,2024.0,2.0,farias grande,BA,Queda de energia,2.6
+659,20240203,2024.0,2.0,fernandes,BA,Manutenção preventiva,3.7
+660,20240203,2024.0,2.0,fernandes,BA,Manutenção preventiva,3.7
+659,20240203,2024.0,2.0,fernandes,BA,Manutenção preventiva,3.7
+660,20240203,2024.0,2.0,fernandes,BA,Manutenção preventiva,3.7
+107,20240211,2024.0,2.0,ferreira da mata,BA,Queda de energia,4.7
+352,20240208,2024.0,2.0,gomes,BA,Falta de fase,0.8
+352,20240208,2024.0,2.0,gomes,BA,Falta de fase,0.8
+353,20240208,2024.0,2.0,gomes,BA,Falta de fase,0.8
+353,20240208,2024.0,2.0,gomes,BA,Falta de fase,0.8
+239,20240220,2024.0,2.0,gonçalves dos dourados,BA,Manutenção preventiva,0.5
+423,20240203,2024.0,2.0,mendes do galho,BA,Falta de fase,5.0
+104,20240205,2024.0,2.0,mendes do norte,BA,Manutenção preventiva,0.6
+104,20240205,2024.0,2.0,mendes do norte,BA,Manutenção preventiva,0.6
+103,20240205,2024.0,2.0,mendes do norte,BA,Manutenção preventiva,0.6
+103,20240205,2024.0,2.0,mendes do norte,BA,Manutenção preventiva,0.6
+687,20240226,2024.0,2.0,moraes de goiás,BA,Queda de energia,3.9
+495,20240206,2024.0,2.0,sales,BA,Queda de energia,3.7
+494,20240206,2024.0,2.0,sales,BA,Queda de energia,3.7
+495,20240206,2024.0,2.0,sales,BA,Queda de energia,3.7
+494,20240206,2024.0,2.0,sales,BA,Queda de energia,3.7
+636,20240229,2024.0,2.0,araújo,MG,Falta de fase,5.6
+637,20240229,2024.0,2.0,araújo,MG,Falta de fase,5.6
+636,20240229,2024.0,2.0,araújo,MG,Falta de fase,5.6
+637,20240229,2024.0,2.0,araújo,MG,Falta de fase,5.6
+373,20240228,2024.0,2.0,costela de das neves,MG,Falta de fase,2.8
+249,20240203,2024.0,2.0,da luz da praia,MG,Falta de fase,2.1
+336,20240209,2024.0,2.0,duarte da mata,MG,Queda de energia,3.2
+337,20240209,2024.0,2.0,duarte da mata,MG,Queda de energia,3.2
+336,20240209,2024.0,2.0,duarte da mata,MG,Queda de energia,3.2
+337,20240209,2024.0,2.0,duarte da mata,MG,Queda de energia,3.2
+347,20240223,2024.0,2.0,fernandes da serra,MG,Queda de energia,1.9
+45,20240221,2024.0,2.0,lima da mata,MG,Manutenção preventiva,1.5
+22,20240204,2024.0,2.0,nascimento,MG,Falta de fase,3.2
+23,20240204,2024.0,2.0,nascimento,MG,Falta de fase,3.2
+22,20240204,2024.0,2.0,nascimento,MG,Falta de fase,3.2
+23,20240204,2024.0,2.0,nascimento,MG,Falta de fase,3.2
+479,20240224,2024.0,2.0,novaes,MG,Manutenção preventiva,1.2
+480,20240224,2024.0,2.0,novaes,MG,Manutenção preventiva,1.2
+479,20240224,2024.0,2.0,novaes,MG,Manutenção preventiva,1.2
+480,20240224,2024.0,2.0,novaes,MG,Manutenção preventiva,1.2
+467,20240227,2024.0,2.0,oliveira,MG,Manutenção preventiva,4.2
+468,20240227,2024.0,2.0,oliveira,MG,Manutenção preventiva,4.2
+468,20240227,2024.0,2.0,oliveira,MG,Manutenção preventiva,4.2
+467,20240227,2024.0,2.0,oliveira,MG,Manutenção preventiva,4.2
+414,20240217,2024.0,2.0,sales,MG,Queda de energia,4.5
+414,20240217,2024.0,2.0,sales,MG,Queda de energia,4.5
+413,20240217,2024.0,2.0,sales,MG,Queda de energia,4.5
+413,20240217,2024.0,2.0,sales,MG,Queda de energia,4.5
+581,20240228,2024.0,2.0,sales do campo,MG,Queda de energia,3.4
+581,20240228,2024.0,2.0,sales do campo,MG,Queda de energia,3.4
+582,20240228,2024.0,2.0,sales do campo,MG,Queda de energia,3.4
+582,20240228,2024.0,2.0,sales do campo,MG,Queda de energia,3.4
+76,20240214,2024.0,2.0,vieira,MG,Queda de energia,3.2
+77,20240214,2024.0,2.0,vieira,MG,Queda de energia,3.2
+76,20240214,2024.0,2.0,vieira,MG,Queda de energia,3.2
+77,20240214,2024.0,2.0,vieira,MG,Queda de energia,3.2
+501,20240229,2024.0,2.0,vieira dos dourados,MG,Falta de fase,2.6
+402,20240205,2024.0,2.0,aragão,SP,Falta de fase,4.6
+403,20240205,2024.0,2.0,aragão,SP,Falta de fase,4.6
+403,20240205,2024.0,2.0,aragão,SP,Falta de fase,4.6
+402,20240205,2024.0,2.0,aragão,SP,Falta de fase,4.6
+489,20240213,2024.0,2.0,cardoso,SP,Manutenção preventiva,3.1
+488,20240213,2024.0,2.0,cardoso,SP,Manutenção preventiva,3.1
+489,20240213,2024.0,2.0,cardoso,SP,Manutenção preventiva,3.1
+488,20240213,2024.0,2.0,cardoso,SP,Manutenção preventiva,3.1
+137,20240212,2024.0,2.0,castro,SP,Falta de fase,5.5
+138,20240212,2024.0,2.0,castro,SP,Falta de fase,5.5
+137,20240212,2024.0,2.0,castro,SP,Falta de fase,5.5
+138,20240212,2024.0,2.0,castro,SP,Falta de fase,5.5
+427,20240218,2024.0,2.0,castro paulista,SP,Queda de energia,2.2
+307,20240215,2024.0,2.0,da conceição de martins,SP,Manutenção preventiva,3.8
+288,20240217,2024.0,2.0,da luz,SP,Queda de energia,4.2
+287,20240217,2024.0,2.0,da luz,SP,Queda de energia,4.2
+288,20240217,2024.0,2.0,da luz,SP,Queda de energia,4.2
+287,20240217,2024.0,2.0,da luz,SP,Queda de energia,4.2
+362,20240207,2024.0,2.0,ferreira,SP,Manutenção preventiva,2.9
+363,20240207,2024.0,2.0,ferreira,SP,Manutenção preventiva,2.9
+362,20240207,2024.0,2.0,ferreira,SP,Manutenção preventiva,2.9
+363,20240207,2024.0,2.0,ferreira,SP,Manutenção preventiva,2.9
+589,20240205,2024.0,2.0,fogaça,SP,Queda de energia,3.9
+588,20240205,2024.0,2.0,fogaça,SP,Queda de energia,3.9
+589,20240205,2024.0,2.0,fogaça,SP,Queda de energia,3.9
+588,20240205,2024.0,2.0,fogaça,SP,Queda de energia,3.9
+42,20240214,2024.0,2.0,fogaça de farias,SP,Queda de energia,5.2
+731,20240229,2024.0,2.0,gonçalves de da rosa,SP,Falta de fase,6.0
+114,20240205,2024.0,2.0,gonçalves de nogueira,SP,Queda de energia,2.5
+558,20240207,2024.0,2.0,gonçalves do galho,SP,Falta de fase,2.0
+668,20240221,2024.0,2.0,martins,SP,Manutenção preventiva,5.5
+668,20240221,2024.0,2.0,martins,SP,Manutenção preventiva,5.5
+669,20240221,2024.0,2.0,martins,SP,Manutenção preventiva,5.5
+669,20240221,2024.0,2.0,martins,SP,Manutenção preventiva,5.5
+224,20240204,2024.0,2.0,martins do amparo,SP,Manutenção preventiva,3.3
+196,20240228,2024.0,2.0,moreira,SP,Manutenção preventiva,4.4
+197,20240228,2024.0,2.0,moreira,SP,Manutenção preventiva,4.4
+196,20240228,2024.0,2.0,moreira,SP,Manutenção preventiva,4.4
+197,20240228,2024.0,2.0,moreira,SP,Manutenção preventiva,4.4
+573,20240226,2024.0,2.0,peixoto,SP,Falta de fase,4.9
+574,20240226,2024.0,2.0,peixoto,SP,Falta de fase,4.9
+573,20240226,2024.0,2.0,peixoto,SP,Falta de fase,4.9
+574,20240226,2024.0,2.0,peixoto,SP,Falta de fase,4.9
+34,20240224,2024.0,2.0,porto,SP,Falta de fase,4.2
+33,20240224,2024.0,2.0,porto,SP,Falta de fase,4.2
+34,20240224,2024.0,2.0,porto,SP,Falta de fase,4.2
+33,20240224,2024.0,2.0,porto,SP,Falta de fase,4.2
+690,20240225,2024.0,2.0,porto do norte,SP,Manutenção preventiva,5.1
+689,20240225,2024.0,2.0,porto do norte,SP,Manutenção preventiva,5.1
+689,20240225,2024.0,2.0,porto do norte,SP,Manutenção preventiva,5.1
+690,20240225,2024.0,2.0,porto do norte,SP,Manutenção preventiva,5.1
+128,20240205,2024.0,2.0,porto paulista,SP,Manutenção preventiva,1.5
+15,20240210,2024.0,2.0,ribeiro,SP,Falta de fase,0.7
+714,20240210,2024.0,2.0,rodrigues,SP,Falta de fase,3.4
+715,20240210,2024.0,2.0,rodrigues,SP,Falta de fase,3.4
+714,20240210,2024.0,2.0,rodrigues,SP,Falta de fase,3.4
+715,20240210,2024.0,2.0,rodrigues,SP,Falta de fase,3.4
+230,20240226,2024.0,2.0,silveira,SP,Falta de fase,3.4
+230,20240226,2024.0,2.0,silveira,SP,Falta de fase,3.4
+229,20240226,2024.0,2.0,silveira,SP,Falta de fase,3.4
+229,20240226,2024.0,2.0,silveira,SP,Falta de fase,3.4
+117,20240217,2024.0,2.0,teixeira de minas,SP,Manutenção preventiva,5.3
+356,20240308,2024.0,3.0,caldeira,BA,Falta de fase,4.8
+357,20240308,2024.0,3.0,caldeira,BA,Falta de fase,4.8
+356,20240308,2024.0,3.0,caldeira,BA,Falta de fase,4.8
+357,20240308,2024.0,3.0,caldeira,BA,Falta de fase,4.8
+209,20240316,2024.0,3.0,costa da prata,BA,Manutenção preventiva,1.8
+199,20240311,2024.0,3.0,cunha do sul,BA,Falta de fase,5.7
+155,20240318,2024.0,3.0,da conceição de gonçalves,BA,Queda de energia,3.9
+418,20240324,2024.0,3.0,da cunha,BA,Falta de fase,5.9
+418,20240324,2024.0,3.0,da cunha,BA,Falta de fase,5.9
+419,20240324,2024.0,3.0,da cunha,BA,Falta de fase,5.9
+419,20240324,2024.0,3.0,da cunha,BA,Falta de fase,5.9
+163,20240312,2024.0,3.0,da paz de pereira,BA,Manutenção preventiva,4.6
+246,20240316,2024.0,3.0,melo,BA,Queda de energia,3.6
+246,20240316,2024.0,3.0,melo,BA,Queda de energia,3.6
+245,20240316,2024.0,3.0,melo,BA,Queda de energia,3.6
+245,20240316,2024.0,3.0,melo,BA,Queda de energia,3.6
+151,20240302,2024.0,3.0,nogueira de duarte,BA,Queda de energia,4.3
+706,20240321,2024.0,3.0,pinto,BA,Queda de energia,5.7
+706,20240321,2024.0,3.0,pinto,BA,Queda de energia,5.7
+707,20240321,2024.0,3.0,pinto,BA,Queda de energia,5.7
+707,20240321,2024.0,3.0,pinto,BA,Queda de energia,5.7
+385,20240302,2024.0,3.0,ramos,BA,Manutenção preventiva,4.6
+384,20240302,2024.0,3.0,ramos,BA,Manutenção preventiva,4.6
+385,20240302,2024.0,3.0,ramos,BA,Manutenção preventiva,4.6
+384,20240302,2024.0,3.0,ramos,BA,Manutenção preventiva,4.6
+472,20240301,2024.0,3.0,silva,BA,Manutenção preventiva,4.8
+471,20240301,2024.0,3.0,silva,BA,Manutenção preventiva,4.8
+472,20240301,2024.0,3.0,silva,BA,Manutenção preventiva,4.8
+471,20240301,2024.0,3.0,silva,BA,Manutenção preventiva,4.8
+27,20240322,2024.0,3.0,almeida,MG,Falta de fase,3.6
+27,20240322,2024.0,3.0,almeida,MG,Falta de fase,3.6
+28,20240322,2024.0,3.0,almeida,MG,Falta de fase,3.6
+28,20240322,2024.0,3.0,almeida,MG,Falta de fase,3.6
+519,20240310,2024.0,3.0,aragão,MG,Falta de fase,2.4
+520,20240310,2024.0,3.0,aragão,MG,Falta de fase,2.4
+520,20240310,2024.0,3.0,aragão,MG,Falta de fase,2.4
+519,20240310,2024.0,3.0,aragão,MG,Falta de fase,2.4
+464,20240308,2024.0,3.0,aragão do norte,MG,Manutenção preventiva,5.1
+587,20240315,2024.0,3.0,campos da mata,MG,Falta de fase,2.1
+121,20240330,2024.0,3.0,cavalcanti,MG,Falta de fase,2.5
+122,20240330,2024.0,3.0,cavalcanti,MG,Falta de fase,2.5
+122,20240330,2024.0,3.0,cavalcanti,MG,Falta de fase,2.5
+121,20240330,2024.0,3.0,cavalcanti,MG,Falta de fase,2.5
+544,20240304,2024.0,3.0,cavalcanti de ribeiro,MG,Falta de fase,3.9
+256,20240307,2024.0,3.0,costa,MG,Manutenção preventiva,5.5
+256,20240307,2024.0,3.0,costa,MG,Manutenção preventiva,5.5
+255,20240307,2024.0,3.0,costa,MG,Manutenção preventiva,5.5
+255,20240307,2024.0,3.0,costa,MG,Manutenção preventiva,5.5
+273,20240325,2024.0,3.0,costela de silveira,MG,Queda de energia,5.6
+220,20240320,2024.0,3.0,da costa,MG,Queda de energia,2.8
+219,20240320,2024.0,3.0,da costa,MG,Queda de energia,2.8
+220,20240320,2024.0,3.0,da costa,MG,Queda de energia,2.8
+219,20240320,2024.0,3.0,da costa,MG,Queda de energia,2.8
+116,20240311,2024.0,3.0,da costa de lima,MG,Falta de fase,3.7
+586,20240305,2024.0,3.0,da cunha,MG,Queda de energia,1.3
+523,20240316,2024.0,3.0,da rosa,MG,Queda de energia,2.4
+524,20240316,2024.0,3.0,da rosa,MG,Queda de energia,2.4
+523,20240316,2024.0,3.0,da rosa,MG,Queda de energia,2.4
+524,20240316,2024.0,3.0,da rosa,MG,Queda de energia,2.4
+303,20240306,2024.0,3.0,dias,MG,Queda de energia,2.0
+302,20240306,2024.0,3.0,dias,MG,Queda de energia,2.0
+303,20240306,2024.0,3.0,dias,MG,Queda de energia,2.0
+302,20240306,2024.0,3.0,dias,MG,Queda de energia,2.0
+190,20240318,2024.0,3.0,freitas,MG,Manutenção preventiva,1.2
+191,20240318,2024.0,3.0,freitas,MG,Manutenção preventiva,1.2
+191,20240318,2024.0,3.0,freitas,MG,Manutenção preventiva,1.2
+190,20240318,2024.0,3.0,freitas,MG,Manutenção preventiva,1.2
+451,20240326,2024.0,3.0,lima paulista,MG,Queda de energia,5.0
+678,20240305,2024.0,3.0,melo do campo,MG,Manutenção preventiva,3.7
+250,20240327,2024.0,3.0,nascimento,MG,Manutenção preventiva,5.0
+251,20240327,2024.0,3.0,nascimento,MG,Manutenção preventiva,5.0
+250,20240327,2024.0,3.0,nascimento,MG,Manutenção preventiva,5.0
+251,20240327,2024.0,3.0,nascimento,MG,Manutenção preventiva,5.0
+304,20240314,2024.0,3.0,ramos alegre,MG,Queda de energia,1.9
+655,20240317,2024.0,3.0,teixeira,MG,Manutenção preventiva,1.9
+493,20240315,2024.0,3.0,teixeira,MG,Falta de fase,5.8
+492,20240315,2024.0,3.0,teixeira,MG,Falta de fase,5.8
+655,20240317,2024.0,3.0,teixeira,MG,Manutenção preventiva,1.9
+492,20240315,2024.0,3.0,teixeira,MG,Falta de fase,5.8
+654,20240317,2024.0,3.0,teixeira,MG,Manutenção preventiva,1.9
+654,20240317,2024.0,3.0,teixeira,MG,Manutenção preventiva,1.9
+493,20240315,2024.0,3.0,teixeira,MG,Falta de fase,5.8
+460,20240328,2024.0,3.0,almeida,SP,Manutenção preventiva,5.0
+460,20240328,2024.0,3.0,almeida,SP,Manutenção preventiva,5.0
+459,20240328,2024.0,3.0,almeida,SP,Manutenção preventiva,5.0
+459,20240328,2024.0,3.0,almeida,SP,Manutenção preventiva,5.0
+697,20240307,2024.0,3.0,campos,SP,Falta de fase,4.1
+697,20240307,2024.0,3.0,campos,SP,Falta de fase,4.1
+698,20240307,2024.0,3.0,campos,SP,Falta de fase,4.1
+698,20240307,2024.0,3.0,campos,SP,Falta de fase,4.1
+487,20240313,2024.0,3.0,cardoso do campo,SP,Queda de energia,3.9
+618,20240308,2024.0,3.0,cardoso do norte,SP,Queda de energia,1.1
+516,20240313,2024.0,3.0,costela,SP,Falta de fase,1.0
+515,20240313,2024.0,3.0,costela,SP,Falta de fase,1.0
+515,20240313,2024.0,3.0,costela,SP,Falta de fase,1.0
+516,20240313,2024.0,3.0,costela,SP,Falta de fase,1.0
+548,20240325,2024.0,3.0,duarte de santos,SP,Manutenção preventiva,3.4
+498,20240311,2024.0,3.0,farias,SP,Falta de fase,3.2
+31,20240328,2024.0,3.0,fernandes,SP,Manutenção preventiva,4.7
+30,20240328,2024.0,3.0,fernandes,SP,Manutenção preventiva,4.7
+30,20240328,2024.0,3.0,fernandes,SP,Manutenção preventiva,4.7
+31,20240328,2024.0,3.0,fernandes,SP,Manutenção preventiva,4.7
+198,20240302,2024.0,3.0,fogaça de dias,SP,Queda de energia,5.6
+405,20240327,2024.0,3.0,gomes,SP,Falta de fase,2.1
+405,20240327,2024.0,3.0,gomes,SP,Falta de fase,2.1
+406,20240327,2024.0,3.0,gomes,SP,Falta de fase,2.1
+406,20240327,2024.0,3.0,gomes,SP,Falta de fase,2.1
+725,20240307,2024.0,3.0,mendes,SP,Queda de energia,0.6
+726,20240307,2024.0,3.0,mendes,SP,Queda de energia,0.6
+726,20240307,2024.0,3.0,mendes,SP,Queda de energia,0.6
+725,20240307,2024.0,3.0,mendes,SP,Queda de energia,0.6
+685,20240323,2024.0,3.0,moreira,SP,Manutenção preventiva,2.8
+686,20240323,2024.0,3.0,moreira,SP,Manutenção preventiva,2.8
+685,20240323,2024.0,3.0,moreira,SP,Manutenção preventiva,2.8
+686,20240323,2024.0,3.0,moreira,SP,Manutenção preventiva,2.8
+143,20240306,2024.0,3.0,pires,SP,Falta de fase,1.2
+646,20240308,2024.0,3.0,sales,SP,Queda de energia,1.6
+647,20240308,2024.0,3.0,sales,SP,Queda de energia,1.6
+647,20240308,2024.0,3.0,sales,SP,Queda de energia,1.6
+646,20240308,2024.0,3.0,sales,SP,Queda de energia,1.6
+139,20240306,2024.0,3.0,santos,SP,Manutenção preventiva,0.9
+140,20240306,2024.0,3.0,santos,SP,Manutenção preventiva,0.9
+139,20240306,2024.0,3.0,santos,SP,Manutenção preventiva,0.9
+140,20240306,2024.0,3.0,santos,SP,Manutenção preventiva,0.9
+78,20240428,2024.0,4.0,almeida de nogueira,BA,Falta de fase,2.5
+701,20240426,2024.0,4.0,aragão verde,BA,Falta de fase,4.6
+661,20240410,2024.0,4.0,barros das flores,BA,Queda de energia,0.9
+595,20240403,2024.0,4.0,correia do oeste,BA,Manutenção preventiva,1.9
+253,20240422,2024.0,4.0,cunha verde,BA,Queda de energia,2.3
+350,20240422,2024.0,4.0,da rosa,BA,Falta de fase,4.2
+351,20240422,2024.0,4.0,da rosa,BA,Falta de fase,4.2
+350,20240422,2024.0,4.0,da rosa,BA,Falta de fase,4.2
+351,20240422,2024.0,4.0,da rosa,BA,Falta de fase,4.2
+317,20240427,2024.0,4.0,duarte,BA,Manutenção preventiva,4.3
+316,20240427,2024.0,4.0,duarte,BA,Manutenção preventiva,4.3
+317,20240427,2024.0,4.0,duarte,BA,Manutenção preventiva,4.3
+316,20240427,2024.0,4.0,duarte,BA,Manutenção preventiva,4.3
+94,20240420,2024.0,4.0,farias,BA,Falta de fase,2.5
+95,20240420,2024.0,4.0,farias,BA,Falta de fase,2.5
+94,20240420,2024.0,4.0,farias,BA,Falta de fase,2.5
+95,20240420,2024.0,4.0,farias,BA,Falta de fase,2.5
+372,20240419,2024.0,4.0,nunes,BA,Manutenção preventiva,1.6
+371,20240419,2024.0,4.0,nunes,BA,Manutenção preventiva,1.6
+372,20240419,2024.0,4.0,nunes,BA,Manutenção preventiva,1.6
+371,20240419,2024.0,4.0,nunes,BA,Manutenção preventiva,1.6
+329,20240403,2024.0,4.0,peixoto verde,BA,Queda de energia,4.2
+416,20240424,2024.0,4.0,porto,BA,Queda de energia,1.7
+415,20240424,2024.0,4.0,porto,BA,Queda de energia,1.7
+415,20240424,2024.0,4.0,porto,BA,Queda de energia,1.7
+416,20240424,2024.0,4.0,porto,BA,Queda de energia,1.7
+428,20240413,2024.0,4.0,rodrigues,BA,Queda de energia,4.0
+428,20240413,2024.0,4.0,rodrigues,BA,Queda de energia,4.0
+429,20240413,2024.0,4.0,rodrigues,BA,Queda de energia,4.0
+429,20240413,2024.0,4.0,rodrigues,BA,Queda de energia,4.0
+271,20240407,2024.0,4.0,sales da serra,BA,Queda de energia,5.9
+517,20240422,2024.0,4.0,aragão,MG,Falta de fase,5.0
+517,20240422,2024.0,4.0,aragão,MG,Falta de fase,5.0
+518,20240422,2024.0,4.0,aragão,MG,Falta de fase,5.0
+518,20240422,2024.0,4.0,aragão,MG,Falta de fase,5.0
+212,20240428,2024.0,4.0,costa de moraes,MG,Queda de energia,2.2
+268,20240419,2024.0,4.0,costa do amparo,MG,Manutenção preventiva,0.6
+718,20240427,2024.0,4.0,das neves,MG,Queda de energia,1.2
+717,20240427,2024.0,4.0,das neves,MG,Queda de energia,1.2
+718,20240427,2024.0,4.0,das neves,MG,Queda de energia,1.2
+717,20240427,2024.0,4.0,das neves,MG,Queda de energia,1.2
+664,20240404,2024.0,4.0,duarte,MG,Manutenção preventiva,5.5
+663,20240404,2024.0,4.0,duarte,MG,Manutenção preventiva,5.5
+664,20240404,2024.0,4.0,duarte,MG,Manutenção preventiva,5.5
+663,20240404,2024.0,4.0,duarte,MG,Manutenção preventiva,5.5
+66,20240409,2024.0,4.0,monteiro,MG,Falta de fase,0.6
+67,20240409,2024.0,4.0,monteiro,MG,Falta de fase,0.6
+66,20240409,2024.0,4.0,monteiro,MG,Falta de fase,0.6
+67,20240409,2024.0,4.0,monteiro,MG,Falta de fase,0.6
+91,20240429,2024.0,4.0,pereira de da paz,MG,Manutenção preventiva,4.1
+8,20240418,2024.0,4.0,teixeira,MG,Manutenção preventiva,1.7
+7,20240418,2024.0,4.0,teixeira,MG,Manutenção preventiva,1.7
+8,20240418,2024.0,4.0,teixeira,MG,Manutenção preventiva,1.7
+7,20240418,2024.0,4.0,teixeira,MG,Manutenção preventiva,1.7
+213,20240403,2024.0,4.0,alves,SP,Manutenção preventiva,4.9
+470,20240404,2024.0,4.0,araújo,SP,Queda de energia,2.0
+469,20240404,2024.0,4.0,araújo,SP,Queda de energia,2.0
+470,20240404,2024.0,4.0,araújo,SP,Queda de energia,2.0
+469,20240404,2024.0,4.0,araújo,SP,Queda de energia,2.0
+237,20240405,2024.0,4.0,campos,SP,Falta de fase,2.0
+236,20240405,2024.0,4.0,campos,SP,Falta de fase,2.0
+236,20240405,2024.0,4.0,campos,SP,Falta de fase,2.0
+237,20240405,2024.0,4.0,campos,SP,Falta de fase,2.0
+136,20240407,2024.0,4.0,carvalho,SP,Manutenção preventiva,2.3
+135,20240407,2024.0,4.0,carvalho,SP,Manutenção preventiva,2.3
+136,20240407,2024.0,4.0,carvalho,SP,Manutenção preventiva,2.3
+135,20240407,2024.0,4.0,carvalho,SP,Manutenção preventiva,2.3
+210,20240411,2024.0,4.0,cunha,SP,Falta de fase,2.2
+210,20240411,2024.0,4.0,cunha,SP,Falta de fase,2.2
+211,20240411,2024.0,4.0,cunha,SP,Falta de fase,2.2
+211,20240411,2024.0,4.0,cunha,SP,Falta de fase,2.2
+32,20240416,2024.0,4.0,da costa do amparo,SP,Manutenção preventiva,1.9
+360,20240413,2024.0,4.0,da cruz,SP,Falta de fase,3.8
+361,20240413,2024.0,4.0,da cruz,SP,Falta de fase,3.8
+35,20240423,2024.0,4.0,da cruz,SP,Queda de energia,4.1
+360,20240413,2024.0,4.0,da cruz,SP,Falta de fase,3.8
+36,20240423,2024.0,4.0,da cruz,SP,Queda de energia,4.1
+361,20240413,2024.0,4.0,da cruz,SP,Falta de fase,3.8
+35,20240423,2024.0,4.0,da cruz,SP,Queda de energia,4.1
+36,20240423,2024.0,4.0,da cruz,SP,Queda de energia,4.1
+74,20240426,2024.0,4.0,da mota,SP,Manutenção preventiva,1.9
+533,20240421,2024.0,4.0,da mota,SP,Falta de fase,1.6
+73,20240426,2024.0,4.0,da mota,SP,Manutenção preventiva,1.9
+534,20240421,2024.0,4.0,da mota,SP,Falta de fase,1.6
+533,20240421,2024.0,4.0,da mota,SP,Falta de fase,1.6
+73,20240426,2024.0,4.0,da mota,SP,Manutenção preventiva,1.9
+74,20240426,2024.0,4.0,da mota,SP,Manutenção preventiva,1.9
+534,20240421,2024.0,4.0,da mota,SP,Falta de fase,1.6
+120,20240414,2024.0,4.0,da rosa das flores,SP,Falta de fase,4.1
+526,20240404,2024.0,4.0,jesus,SP,Queda de energia,1.2
+525,20240404,2024.0,4.0,jesus,SP,Queda de energia,1.2
+526,20240404,2024.0,4.0,jesus,SP,Queda de energia,1.2
+525,20240404,2024.0,4.0,jesus,SP,Queda de energia,1.2
+161,20240421,2024.0,4.0,lopes,SP,Manutenção preventiva,4.1
+161,20240421,2024.0,4.0,lopes,SP,Manutenção preventiva,4.1
+162,20240421,2024.0,4.0,lopes,SP,Manutenção preventiva,4.1
+162,20240421,2024.0,4.0,lopes,SP,Manutenção preventiva,4.1
+434,20240419,2024.0,4.0,nogueira da praia,SP,Falta de fase,4.4
+531,20240408,2024.0,4.0,pinto,SP,Manutenção preventiva,1.9
+532,20240408,2024.0,4.0,pinto,SP,Manutenção preventiva,1.9
+532,20240408,2024.0,4.0,pinto,SP,Manutenção preventiva,1.9
+531,20240408,2024.0,4.0,pinto,SP,Manutenção preventiva,1.9
+635,20240404,2024.0,4.0,ribeiro do galho,SP,Falta de fase,4.8
+634,20240404,2024.0,4.0,ribeiro do galho,SP,Falta de fase,4.8
+634,20240404,2024.0,4.0,ribeiro do galho,SP,Falta de fase,4.8
+635,20240404,2024.0,4.0,ribeiro do galho,SP,Falta de fase,4.8
+557,20240406,2024.0,4.0,ribeiro do oeste,SP,Queda de energia,2.3
+612,20240420,2024.0,4.0,rocha da prata,SP,Falta de fase,5.4
+189,20240410,2024.0,4.0,silva de goiás,SP,Falta de fase,4.0
+604,20240511,2024.0,5.0,barbosa,BA,Manutenção preventiva,5.7
+604,20240511,2024.0,5.0,barbosa,BA,Manutenção preventiva,5.7
+603,20240511,2024.0,5.0,barbosa,BA,Manutenção preventiva,5.7
+603,20240511,2024.0,5.0,barbosa,BA,Manutenção preventiva,5.7
+252,20240527,2024.0,5.0,campos de da rosa,BA,Manutenção preventiva,0.5
+109,20240506,2024.0,5.0,cavalcanti,BA,Queda de energia,1.1
+108,20240506,2024.0,5.0,cavalcanti,BA,Queda de energia,1.1
+109,20240506,2024.0,5.0,cavalcanti,BA,Queda de energia,1.1
+108,20240506,2024.0,5.0,cavalcanti,BA,Queda de energia,1.1
+578,20240513,2024.0,5.0,correia das pedras,BA,Manutenção preventiva,4.1
+430,20240513,2024.0,5.0,correia do campo,BA,Queda de energia,2.9
+297,20240508,2024.0,5.0,costela,BA,Falta de fase,0.6
+298,20240508,2024.0,5.0,costela,BA,Falta de fase,0.6
+297,20240508,2024.0,5.0,costela,BA,Falta de fase,0.6
+298,20240508,2024.0,5.0,costela,BA,Falta de fase,0.6
+159,20240503,2024.0,5.0,fernandes,BA,Queda de energia,1.8
+159,20240503,2024.0,5.0,fernandes,BA,Queda de energia,1.8
+158,20240503,2024.0,5.0,fernandes,BA,Queda de energia,1.8
+158,20240503,2024.0,5.0,fernandes,BA,Queda de energia,1.8
+514,20240529,2024.0,5.0,lopes,BA,Queda de energia,5.8
+513,20240529,2024.0,5.0,lopes,BA,Queda de energia,5.8
+513,20240529,2024.0,5.0,lopes,BA,Queda de energia,5.8
+514,20240529,2024.0,5.0,lopes,BA,Queda de energia,5.8
+330,20240525,2024.0,5.0,pereira,BA,Falta de fase,1.3
+676,20240522,2024.0,5.0,pires,BA,Queda de energia,1.9
+676,20240522,2024.0,5.0,pires,BA,Queda de energia,1.9
+677,20240522,2024.0,5.0,pires,BA,Queda de energia,1.9
+677,20240522,2024.0,5.0,pires,BA,Queda de energia,1.9
+665,20240526,2024.0,5.0,viana,BA,Queda de energia,3.3
+666,20240526,2024.0,5.0,viana,BA,Queda de energia,3.3
+666,20240526,2024.0,5.0,viana,BA,Queda de energia,3.3
+665,20240526,2024.0,5.0,viana,BA,Queda de energia,3.3
+257,20240504,2024.0,5.0,vieira de minas,BA,Queda de energia,1.8
+51,20240503,2024.0,5.0,caldeira da prata,MG,Manutenção preventiva,4.1
+602,20240516,2024.0,5.0,da mota,MG,Falta de fase,3.2
+601,20240516,2024.0,5.0,da mota,MG,Falta de fase,3.2
+602,20240516,2024.0,5.0,da mota,MG,Falta de fase,3.2
+601,20240516,2024.0,5.0,da mota,MG,Falta de fase,3.2
+200,20240514,2024.0,5.0,fogaça,MG,Falta de fase,3.5
+200,20240514,2024.0,5.0,fogaça,MG,Falta de fase,3.5
+201,20240514,2024.0,5.0,fogaça,MG,Falta de fase,3.5
+201,20240514,2024.0,5.0,fogaça,MG,Falta de fase,3.5
+179,20240505,2024.0,5.0,martins do campo,MG,Falta de fase,5.4
+708,20240526,2024.0,5.0,pinto das pedras,MG,Queda de energia,5.3
+709,20240526,2024.0,5.0,pinto das pedras,MG,Queda de energia,5.3
+708,20240526,2024.0,5.0,pinto das pedras,MG,Queda de energia,5.3
+709,20240526,2024.0,5.0,pinto das pedras,MG,Queda de energia,5.3
+152,20240526,2024.0,5.0,viana de minas,MG,Manutenção preventiva,4.7
+21,20240528,2024.0,5.0,aragão,SP,Queda de energia,4.8
+20,20240528,2024.0,5.0,aragão,SP,Queda de energia,4.8
+21,20240528,2024.0,5.0,aragão,SP,Queda de energia,4.8
+20,20240528,2024.0,5.0,aragão,SP,Queda de energia,4.8
+238,20240518,2024.0,5.0,cardoso do norte,SP,Manutenção preventiva,3.0
+408,20240510,2024.0,5.0,costela de minas,SP,Manutenção preventiva,3.8
+156,20240504,2024.0,5.0,da costa das flores,SP,Manutenção preventiva,3.7
+439,20240516,2024.0,5.0,da rosa,SP,Falta de fase,2.8
+438,20240516,2024.0,5.0,da rosa,SP,Falta de fase,2.8
+439,20240516,2024.0,5.0,da rosa,SP,Falta de fase,2.8
+438,20240516,2024.0,5.0,da rosa,SP,Falta de fase,2.8
+123,20240509,2024.0,5.0,da rosa dos dourados,SP,Manutenção preventiva,2.6
+445,20240531,2024.0,5.0,moreira das pedras,SP,Queda de energia,2.4
+64,20240519,2024.0,5.0,porto,SP,Queda de energia,2.8
+65,20240519,2024.0,5.0,porto,SP,Queda de energia,2.8
+64,20240519,2024.0,5.0,porto,SP,Queda de energia,2.8
+65,20240519,2024.0,5.0,porto,SP,Queda de energia,2.8
+299,20240531,2024.0,5.0,viana,SP,Falta de fase,2.8
+300,20240531,2024.0,5.0,viana,SP,Falta de fase,2.8
+299,20240531,2024.0,5.0,viana,SP,Falta de fase,2.8
+300,20240531,2024.0,5.0,viana,SP,Falta de fase,2.8
+563,20240626,2024.0,6.0,araújo das flores,BA,Falta de fase,2.7
+102,20240611,2024.0,6.0,azevedo dos dourados,BA,Queda de energia,3.4
+462,20240627,2024.0,6.0,caldeira,BA,Queda de energia,4.4
+463,20240627,2024.0,6.0,caldeira,BA,Queda de energia,4.4
+463,20240627,2024.0,6.0,caldeira,BA,Queda de energia,4.4
+462,20240627,2024.0,6.0,caldeira,BA,Queda de energia,4.4
+575,20240605,2024.0,6.0,correia,BA,Manutenção preventiva,2.0
+90,20240617,2024.0,6.0,costa,BA,Manutenção preventiva,3.3
+89,20240617,2024.0,6.0,costa,BA,Manutenção preventiva,3.3
+90,20240617,2024.0,6.0,costa,BA,Manutenção preventiva,3.3
+89,20240617,2024.0,6.0,costa,BA,Manutenção preventiva,3.3
+338,20240613,2024.0,6.0,da conceição,BA,Manutenção preventiva,5.0
+339,20240613,2024.0,6.0,da conceição,BA,Manutenção preventiva,5.0
+339,20240613,2024.0,6.0,da conceição,BA,Manutenção preventiva,5.0
+338,20240613,2024.0,6.0,da conceição,BA,Manutenção preventiva,5.0
+458,20240611,2024.0,6.0,da costa,BA,Manutenção preventiva,3.0
+457,20240611,2024.0,6.0,da costa,BA,Manutenção preventiva,3.0
+458,20240611,2024.0,6.0,da costa,BA,Manutenção preventiva,3.0
+457,20240611,2024.0,6.0,da costa,BA,Manutenção preventiva,3.0
+699,20240618,2024.0,6.0,da costa de fogaça,BA,Falta de fase,6.0
+240,20240605,2024.0,6.0,da cruz,BA,Manutenção preventiva,2.4
+12,20240611,2024.0,6.0,da mota de da conceição,BA,Manutenção preventiva,1.1
+700,20240606,2024.0,6.0,das neves do galho,BA,Falta de fase,1.3
+733,20240626,2024.0,6.0,dias das pedras,BA,Manutenção preventiva,2.4
+562,20240605,2024.0,6.0,gomes,BA,Queda de energia,3.5
+562,20240605,2024.0,6.0,gomes,BA,Queda de energia,3.5
+561,20240605,2024.0,6.0,gomes,BA,Queda de energia,3.5
+561,20240605,2024.0,6.0,gomes,BA,Queda de energia,3.5
+265,20240610,2024.0,6.0,gonçalves,BA,Manutenção preventiva,2.8
+264,20240610,2024.0,6.0,gonçalves,BA,Manutenção preventiva,2.8
+265,20240610,2024.0,6.0,gonçalves,BA,Manutenção preventiva,2.8
+264,20240610,2024.0,6.0,gonçalves,BA,Manutenção preventiva,2.8
+281,20240610,2024.0,6.0,monteiro,BA,Queda de energia,3.7
+282,20240610,2024.0,6.0,monteiro,BA,Queda de energia,3.7
+282,20240610,2024.0,6.0,monteiro,BA,Queda de energia,3.7
+281,20240610,2024.0,6.0,monteiro,BA,Queda de energia,3.7
+364,20240626,2024.0,6.0,moura da prata,BA,Falta de fase,5.1
+443,20240607,2024.0,6.0,novaes,BA,Falta de fase,2.5
+442,20240607,2024.0,6.0,novaes,BA,Falta de fase,2.5
+443,20240607,2024.0,6.0,novaes,BA,Falta de fase,2.5
+442,20240607,2024.0,6.0,novaes,BA,Falta de fase,2.5
+762,20240623,2024.0,6.0,ramos de goiás,BA,Manutenção preventiva,5.6
+605,20240617,2024.0,6.0,rodrigues paulista,BA,Manutenção preventiva,2.6
+648,20240622,2024.0,6.0,souza verde,BA,Manutenção preventiva,3.3
+335,20240618,2024.0,6.0,viana,BA,Queda de energia,2.4
+334,20240618,2024.0,6.0,viana,BA,Queda de energia,2.4
+334,20240618,2024.0,6.0,viana,BA,Queda de energia,2.4
+335,20240618,2024.0,6.0,viana,BA,Queda de energia,2.4
+420,20240625,2024.0,6.0,correia grande,MG,Manutenção preventiva,3.6
+326,20240610,2024.0,6.0,moraes,MG,Falta de fase,1.3
+325,20240610,2024.0,6.0,moraes,MG,Falta de fase,1.3
+326,20240610,2024.0,6.0,moraes,MG,Falta de fase,1.3
+325,20240610,2024.0,6.0,moraes,MG,Falta de fase,1.3
+590,20240609,2024.0,6.0,moraes do sul,MG,Queda de energia,1.5
+342,20240623,2024.0,6.0,moreira da serra,MG,Falta de fase,4.5
+749,20240628,2024.0,6.0,novaes,MG,Manutenção preventiva,4.3
+749,20240628,2024.0,6.0,novaes,MG,Manutenção preventiva,4.3
+750,20240628,2024.0,6.0,novaes,MG,Manutenção preventiva,4.3
+750,20240628,2024.0,6.0,novaes,MG,Manutenção preventiva,4.3
+382,20240604,2024.0,6.0,novaes de melo,MG,Falta de fase,1.3
+267,20240620,2024.0,6.0,silveira,MG,Falta de fase,1.5
+266,20240620,2024.0,6.0,silveira,MG,Falta de fase,1.5
+266,20240620,2024.0,6.0,silveira,MG,Falta de fase,1.5
+267,20240620,2024.0,6.0,silveira,MG,Falta de fase,1.5
+260,20240616,2024.0,6.0,vieira,MG,Queda de energia,3.5
+259,20240616,2024.0,6.0,vieira,MG,Queda de energia,3.5
+260,20240616,2024.0,6.0,vieira,MG,Queda de energia,3.5
+259,20240616,2024.0,6.0,vieira,MG,Queda de energia,3.5
+283,20240612,2024.0,6.0,alves,SP,Queda de energia,2.3
+348,20240615,2024.0,6.0,barros do amparo,SP,Queda de energia,1.7
+444,20240612,2024.0,6.0,caldeira do amparo,SP,Falta de fase,2.1
+62,20240616,2024.0,6.0,da costa de da mota,SP,Falta de fase,0.7
+320,20240607,2024.0,6.0,dias da prata,SP,Manutenção preventiva,1.4
+400,20240630,2024.0,6.0,freitas do galho,SP,Manutenção preventiva,5.7
+522,20240621,2024.0,6.0,lima de goiás,SP,Falta de fase,6.0
+47,20240607,2024.0,6.0,novaes,SP,Manutenção preventiva,3.9
+46,20240607,2024.0,6.0,novaes,SP,Manutenção preventiva,3.9
+47,20240607,2024.0,6.0,novaes,SP,Manutenção preventiva,3.9
+46,20240607,2024.0,6.0,novaes,SP,Manutenção preventiva,3.9
+723,20240713,2024.0,7.0,almeida,BA,Manutenção preventiva,4.9
+723,20240713,2024.0,7.0,almeida,BA,Manutenção preventiva,4.9
+722,20240713,2024.0,7.0,almeida,BA,Manutenção preventiva,4.9
+722,20240713,2024.0,7.0,almeida,BA,Manutenção preventiva,4.9
+177,20240723,2024.0,7.0,aragão das pedras,BA,Manutenção preventiva,1.0
+675,20240726,2024.0,7.0,campos,BA,Manutenção preventiva,4.5
+674,20240726,2024.0,7.0,campos,BA,Manutenção preventiva,4.5
+675,20240726,2024.0,7.0,campos,BA,Manutenção preventiva,4.5
+674,20240726,2024.0,7.0,campos,BA,Manutenção preventiva,4.5
+511,20240725,2024.0,7.0,cardoso,BA,Falta de fase,2.2
+511,20240725,2024.0,7.0,cardoso,BA,Falta de fase,2.2
+510,20240725,2024.0,7.0,cardoso,BA,Falta de fase,2.2
+510,20240725,2024.0,7.0,cardoso,BA,Falta de fase,2.2
+455,20240729,2024.0,7.0,da conceição de rezende,BA,Manutenção preventiva,1.2
+270,20240706,2024.0,7.0,da rosa,BA,Falta de fase,1.3
+269,20240706,2024.0,7.0,da rosa,BA,Falta de fase,1.3
+269,20240706,2024.0,7.0,da rosa,BA,Falta de fase,1.3
+270,20240706,2024.0,7.0,da rosa,BA,Falta de fase,1.3
+50,20240725,2024.0,7.0,dias de pires,BA,Queda de energia,2.5
+183,20240707,2024.0,7.0,farias,BA,Falta de fase,4.0
+182,20240707,2024.0,7.0,farias,BA,Falta de fase,4.0
+183,20240707,2024.0,7.0,farias,BA,Falta de fase,4.0
+182,20240707,2024.0,7.0,farias,BA,Falta de fase,4.0
+560,20240705,2024.0,7.0,nascimento do sul,BA,Falta de fase,2.5
+9,20240719,2024.0,7.0,nunes dos dourados,BA,Queda de energia,4.4
+431,20240725,2024.0,7.0,oliveira de pereira,BA,Manutenção preventiva,4.9
+695,20240716,2024.0,7.0,viana,BA,Queda de energia,3.3
+695,20240716,2024.0,7.0,viana,BA,Queda de energia,3.3
+696,20240716,2024.0,7.0,viana,BA,Queda de energia,3.3
+696,20240716,2024.0,7.0,viana,BA,Queda de energia,3.3
+404,20240704,2024.0,7.0,alves verde,MG,Falta de fase,3.3
+547,20240715,2024.0,7.0,azevedo das pedras,MG,Manutenção preventiva,4.6
+75,20240717,2024.0,7.0,azevedo de minas,MG,Queda de energia,2.5
+546,20240701,2024.0,7.0,carvalho,MG,Queda de energia,4.0
+545,20240701,2024.0,7.0,carvalho,MG,Queda de energia,4.0
+545,20240701,2024.0,7.0,carvalho,MG,Queda de energia,4.0
+546,20240701,2024.0,7.0,carvalho,MG,Queda de energia,4.0
+615,20240728,2024.0,7.0,carvalho de santos,MG,Queda de energia,2.6
+170,20240702,2024.0,7.0,da mata,MG,Queda de energia,5.8
+170,20240702,2024.0,7.0,da mata,MG,Queda de energia,5.8
+169,20240702,2024.0,7.0,da mata,MG,Queda de energia,5.8
+169,20240702,2024.0,7.0,da mata,MG,Queda de energia,5.8
+311,20240707,2024.0,7.0,da paz,MG,Manutenção preventiva,5.4
+311,20240707,2024.0,7.0,da paz,MG,Manutenção preventiva,5.4
+310,20240707,2024.0,7.0,da paz,MG,Manutenção preventiva,5.4
+310,20240707,2024.0,7.0,da paz,MG,Manutenção preventiva,5.4
+18,20240721,2024.0,7.0,da paz paulista,MG,Manutenção preventiva,2.1
+217,20240715,2024.0,7.0,da rocha,MG,Falta de fase,2.9
+564,20240717,2024.0,7.0,farias do galho,MG,Manutenção preventiva,5.1
+507,20240730,2024.0,7.0,mendes das flores,MG,Manutenção preventiva,5.3
+332,20240719,2024.0,7.0,moreira paulista,MG,Queda de energia,4.9
+58,20240725,2024.0,7.0,oliveira,MG,Queda de energia,5.0
+59,20240725,2024.0,7.0,oliveira,MG,Queda de energia,5.0
+58,20240725,2024.0,7.0,oliveira,MG,Queda de energia,5.0
+59,20240725,2024.0,7.0,oliveira,MG,Queda de energia,5.0
+242,20240708,2024.0,7.0,ramos,MG,Queda de energia,0.9
+241,20240708,2024.0,7.0,ramos,MG,Queda de energia,0.9
+241,20240708,2024.0,7.0,ramos,MG,Queda de energia,0.9
+242,20240708,2024.0,7.0,ramos,MG,Queda de energia,0.9
+653,20240714,2024.0,7.0,rodrigues,MG,Falta de fase,1.2
+652,20240714,2024.0,7.0,rodrigues,MG,Falta de fase,1.2
+652,20240714,2024.0,7.0,rodrigues,MG,Falta de fase,1.2
+653,20240714,2024.0,7.0,rodrigues,MG,Falta de fase,1.2
+598,20240706,2024.0,7.0,santos,MG,Falta de fase,0.8
+598,20240706,2024.0,7.0,santos,MG,Falta de fase,0.8
+597,20240706,2024.0,7.0,santos,MG,Falta de fase,0.8
+597,20240706,2024.0,7.0,santos,MG,Falta de fase,0.8
+166,20240719,2024.0,7.0,teixeira,MG,Manutenção preventiva,3.6
+167,20240719,2024.0,7.0,teixeira,MG,Manutenção preventiva,3.6
+167,20240719,2024.0,7.0,teixeira,MG,Manutenção preventiva,3.6
+166,20240719,2024.0,7.0,teixeira,MG,Manutenção preventiva,3.6
+150,20240717,2024.0,7.0,viana,MG,Manutenção preventiva,4.1
+149,20240717,2024.0,7.0,viana,MG,Manutenção preventiva,4.1
+150,20240717,2024.0,7.0,viana,MG,Manutenção preventiva,4.1
+149,20240717,2024.0,7.0,viana,MG,Manutenção preventiva,4.1
+205,20240723,2024.0,7.0,alves das pedras,SP,Queda de energia,4.4
+484,20240728,2024.0,7.0,aragão de nunes,SP,Manutenção preventiva,6.0
+499,20240721,2024.0,7.0,barbosa,SP,Falta de fase,6.0
+500,20240721,2024.0,7.0,barbosa,SP,Falta de fase,6.0
+500,20240721,2024.0,7.0,barbosa,SP,Falta de fase,6.0
+499,20240721,2024.0,7.0,barbosa,SP,Falta de fase,6.0
+450,20240704,2024.0,7.0,caldeira da mata,SP,Manutenção preventiva,1.3
+450,20240704,2024.0,7.0,caldeira da mata,SP,Manutenção preventiva,1.3
+449,20240704,2024.0,7.0,caldeira da mata,SP,Manutenção preventiva,1.3
+449,20240704,2024.0,7.0,caldeira da mata,SP,Manutenção preventiva,1.3
+643,20240701,2024.0,7.0,cardoso,SP,Falta de fase,2.0
+642,20240701,2024.0,7.0,cardoso,SP,Falta de fase,2.0
+643,20240701,2024.0,7.0,cardoso,SP,Falta de fase,2.0
+642,20240701,2024.0,7.0,cardoso,SP,Falta de fase,2.0
+127,20240706,2024.0,7.0,carvalho das pedras,SP,Falta de fase,2.5
+40,20240720,2024.0,7.0,cunha do sul,SP,Falta de fase,2.0
+41,20240720,2024.0,7.0,cunha do sul,SP,Falta de fase,2.0
+40,20240720,2024.0,7.0,cunha do sul,SP,Falta de fase,2.0
+41,20240720,2024.0,7.0,cunha do sul,SP,Falta de fase,2.0
+682,20240704,2024.0,7.0,da costa da mata,SP,Falta de fase,5.4
+160,20240723,2024.0,7.0,dias de costela,SP,Queda de energia,0.8
+591,20240716,2024.0,7.0,farias da praia,SP,Queda de energia,5.5
+571,20240702,2024.0,7.0,gomes de melo,SP,Manutenção preventiva,2.6
+262,20240706,2024.0,7.0,monteiro,SP,Falta de fase,0.8
+262,20240706,2024.0,7.0,monteiro,SP,Falta de fase,0.8
+622,20240713,2024.0,7.0,monteiro,SP,Falta de fase,5.0
+623,20240713,2024.0,7.0,monteiro,SP,Falta de fase,5.0
+263,20240706,2024.0,7.0,monteiro,SP,Falta de fase,0.8
+622,20240713,2024.0,7.0,monteiro,SP,Falta de fase,5.0
+623,20240713,2024.0,7.0,monteiro,SP,Falta de fase,5.0
+263,20240706,2024.0,7.0,monteiro,SP,Falta de fase,0.8
+322,20240729,2024.0,7.0,moraes,SP,Manutenção preventiva,0.7
+321,20240729,2024.0,7.0,moraes,SP,Manutenção preventiva,0.7
+322,20240729,2024.0,7.0,moraes,SP,Manutenção preventiva,0.7
+321,20240729,2024.0,7.0,moraes,SP,Manutenção preventiva,0.7
+284,20240717,2024.0,7.0,moraes de minas,SP,Manutenção preventiva,2.6
+483,20240731,2024.0,7.0,moraes de rocha,SP,Manutenção preventiva,2.6
+744,20240706,2024.0,7.0,oliveira,SP,Manutenção preventiva,3.2
+745,20240706,2024.0,7.0,oliveira,SP,Manutenção preventiva,3.2
+745,20240706,2024.0,7.0,oliveira,SP,Manutenção preventiva,3.2
+744,20240706,2024.0,7.0,oliveira,SP,Manutenção preventiva,3.2
+473,20240728,2024.0,7.0,ribeiro das flores,SP,Manutenção preventiva,5.8
+301,20240714,2024.0,7.0,souza das flores,SP,Queda de energia,3.7
+594,20240803,2024.0,8.0,caldeira do sul,BA,Falta de fase,5.2
+577,20240804,2024.0,8.0,cavalcanti de monteiro,BA,Falta de fase,5.4
+396,20240831,2024.0,8.0,correia de goiás,BA,Falta de fase,4.9
+395,20240831,2024.0,8.0,correia de goiás,BA,Falta de fase,4.9
+396,20240831,2024.0,8.0,correia de goiás,BA,Falta de fase,4.9
+395,20240831,2024.0,8.0,correia de goiás,BA,Falta de fase,4.9
+37,20240816,2024.0,8.0,costa,BA,Falta de fase,3.9
+37,20240816,2024.0,8.0,costa,BA,Falta de fase,3.9
+38,20240816,2024.0,8.0,costa,BA,Falta de fase,3.9
+38,20240816,2024.0,8.0,costa,BA,Falta de fase,3.9
+216,20240828,2024.0,8.0,da costa alegre,BA,Falta de fase,3.0
+436,20240801,2024.0,8.0,da cunha,BA,Manutenção preventiva,2.3
+437,20240801,2024.0,8.0,da cunha,BA,Manutenção preventiva,2.3
+437,20240801,2024.0,8.0,da cunha,BA,Manutenção preventiva,2.3
+436,20240801,2024.0,8.0,da cunha,BA,Manutenção preventiva,2.3
+258,20240807,2024.0,8.0,da mota de minas,BA,Queda de energia,3.5
+379,20240831,2024.0,8.0,das neves,BA,Manutenção preventiva,1.4
+379,20240831,2024.0,8.0,das neves,BA,Manutenção preventiva,1.4
+380,20240831,2024.0,8.0,das neves,BA,Manutenção preventiva,1.4
+380,20240831,2024.0,8.0,das neves,BA,Manutenção preventiva,1.4
+554,20240817,2024.0,8.0,peixoto,BA,Falta de fase,4.4
+553,20240817,2024.0,8.0,peixoto,BA,Falta de fase,4.4
+2,20240811,2024.0,8.0,peixoto,BA,Falta de fase,5.8
+3,20240811,2024.0,8.0,peixoto,BA,Falta de fase,5.8
+554,20240817,2024.0,8.0,peixoto,BA,Falta de fase,4.4
+553,20240817,2024.0,8.0,peixoto,BA,Falta de fase,4.4
+2,20240811,2024.0,8.0,peixoto,BA,Falta de fase,5.8
+3,20240811,2024.0,8.0,peixoto,BA,Falta de fase,5.8
+286,20240811,2024.0,8.0,peixoto alegre,BA,Manutenção preventiva,2.8
+24,20240814,2024.0,8.0,peixoto do sul,BA,Queda de energia,2.9
+711,20240821,2024.0,8.0,pereira de cardoso,BA,Manutenção preventiva,1.3
+482,20240827,2024.0,8.0,pinto,BA,Queda de energia,1.0
+482,20240827,2024.0,8.0,pinto,BA,Queda de energia,1.0
+481,20240827,2024.0,8.0,pinto,BA,Queda de energia,1.0
+481,20240827,2024.0,8.0,pinto,BA,Queda de energia,1.0
+99,20240805,2024.0,8.0,pires,BA,Manutenção preventiva,0.7
+98,20240805,2024.0,8.0,pires,BA,Manutenção preventiva,0.7
+99,20240805,2024.0,8.0,pires,BA,Manutenção preventiva,0.7
+98,20240805,2024.0,8.0,pires,BA,Manutenção preventiva,0.7
+17,20240831,2024.0,8.0,santos do campo,BA,Queda de energia,4.9
+176,20240819,2024.0,8.0,vieira,BA,Manutenção preventiva,2.8
+176,20240819,2024.0,8.0,vieira,BA,Manutenção preventiva,2.8
+175,20240819,2024.0,8.0,vieira,BA,Manutenção preventiva,2.8
+175,20240819,2024.0,8.0,vieira,BA,Manutenção preventiva,2.8
+171,20240825,2024.0,8.0,cunha do oeste,MG,Falta de fase,1.1
+375,20240827,2024.0,8.0,gonçalves,MG,Manutenção preventiva,2.1
+374,20240827,2024.0,8.0,gonçalves,MG,Manutenção preventiva,2.1
+374,20240827,2024.0,8.0,gonçalves,MG,Manutenção preventiva,2.1
+375,20240827,2024.0,8.0,gonçalves,MG,Manutenção preventiva,2.1
+681,20240801,2024.0,8.0,lima do sul,MG,Manutenção preventiva,2.1
+26,20240801,2024.0,8.0,moreira,MG,Manutenção preventiva,0.6
+25,20240801,2024.0,8.0,moreira,MG,Manutenção preventiva,0.6
+26,20240801,2024.0,8.0,moreira,MG,Manutenção preventiva,0.6
+399,20240818,2024.0,8.0,moreira,MG,Manutenção preventiva,5.3
+398,20240818,2024.0,8.0,moreira,MG,Manutenção preventiva,5.3
+399,20240818,2024.0,8.0,moreira,MG,Manutenção preventiva,5.3
+398,20240818,2024.0,8.0,moreira,MG,Manutenção preventiva,5.3
+25,20240801,2024.0,8.0,moreira,MG,Manutenção preventiva,0.6
+656,20240802,2024.0,8.0,ribeiro,MG,Falta de fase,3.6
+657,20240802,2024.0,8.0,ribeiro,MG,Falta de fase,3.6
+656,20240802,2024.0,8.0,ribeiro,MG,Falta de fase,3.6
+657,20240802,2024.0,8.0,ribeiro,MG,Falta de fase,3.6
+766,20240821,2024.0,8.0,cardoso dos dourados,SP,Falta de fase,3.7
+760,20240821,2024.0,8.0,da mota,SP,Manutenção preventiva,1.7
+760,20240821,2024.0,8.0,da mota,SP,Manutenção preventiva,1.7
+761,20240821,2024.0,8.0,da mota,SP,Manutenção preventiva,1.7
+761,20240821,2024.0,8.0,da mota,SP,Manutenção preventiva,1.7
+377,20240821,2024.0,8.0,dias,SP,Falta de fase,3.3
+377,20240821,2024.0,8.0,dias,SP,Falta de fase,3.3
+378,20240821,2024.0,8.0,dias,SP,Falta de fase,3.3
+378,20240821,2024.0,8.0,dias,SP,Falta de fase,3.3
+173,20240818,2024.0,8.0,gomes,SP,Falta de fase,0.7
+174,20240818,2024.0,8.0,gomes,SP,Falta de fase,0.7
+173,20240818,2024.0,8.0,gomes,SP,Falta de fase,0.7
+174,20240818,2024.0,8.0,gomes,SP,Falta de fase,0.7
+226,20240814,2024.0,8.0,mendes,SP,Falta de fase,5.8
+225,20240814,2024.0,8.0,mendes,SP,Falta de fase,5.8
+226,20240814,2024.0,8.0,mendes,SP,Falta de fase,5.8
+225,20240814,2024.0,8.0,mendes,SP,Falta de fase,5.8
+390,20240808,2024.0,8.0,moura do campo,SP,Queda de energia,5.2
+740,20240822,2024.0,8.0,pinto,SP,Manutenção preventiva,1.1
+739,20240822,2024.0,8.0,pinto,SP,Manutenção preventiva,1.1
+740,20240822,2024.0,8.0,pinto,SP,Manutenção preventiva,1.1
+739,20240822,2024.0,8.0,pinto,SP,Manutenção preventiva,1.1
+716,20240826,2024.0,8.0,ribeiro,SP,Falta de fase,1.4
+227,20240815,2024.0,8.0,sales,SP,Falta de fase,5.9
+227,20240815,2024.0,8.0,sales,SP,Falta de fase,5.9
+228,20240815,2024.0,8.0,sales,SP,Falta de fase,5.9
+228,20240815,2024.0,8.0,sales,SP,Falta de fase,5.9
+679,20240913,2024.0,9.0,campos do campo,BA,Queda de energia,5.1
+680,20240913,2024.0,9.0,campos do campo,BA,Queda de energia,5.1
+679,20240913,2024.0,9.0,campos do campo,BA,Queda de energia,5.1
+680,20240913,2024.0,9.0,campos do campo,BA,Queda de energia,5.1
+613,20240930,2024.0,9.0,cavalcanti,BA,Falta de fase,4.6
+614,20240930,2024.0,9.0,cavalcanti,BA,Falta de fase,4.6
+613,20240930,2024.0,9.0,cavalcanti,BA,Falta de fase,4.6
+614,20240930,2024.0,9.0,cavalcanti,BA,Falta de fase,4.6
+285,20240902,2024.0,9.0,costa de pires,BA,Manutenção preventiva,2.9
+319,20240901,2024.0,9.0,da luz de azevedo,BA,Manutenção preventiva,3.1
+184,20240929,2024.0,9.0,da rocha das pedras,BA,Manutenção preventiva,0.7
+233,20240920,2024.0,9.0,da rosa,BA,Queda de energia,2.1
+68,20240907,2024.0,9.0,da rosa,BA,Falta de fase,3.9
+69,20240907,2024.0,9.0,da rosa,BA,Falta de fase,3.9
+234,20240920,2024.0,9.0,da rosa,BA,Queda de energia,2.1
+68,20240907,2024.0,9.0,da rosa,BA,Falta de fase,3.9
+234,20240920,2024.0,9.0,da rosa,BA,Queda de energia,2.1
+233,20240920,2024.0,9.0,da rosa,BA,Queda de energia,2.1
+69,20240907,2024.0,9.0,da rosa,BA,Falta de fase,3.9
+187,20240905,2024.0,9.0,jesus de melo,BA,Queda de energia,2.1
+254,20240910,2024.0,9.0,jesus verde,BA,Manutenção preventiva,4.1
+580,20240912,2024.0,9.0,moura do norte,BA,Queda de energia,3.9
+719,20240930,2024.0,9.0,novaes de moraes,BA,Manutenção preventiva,3.6
+633,20240928,2024.0,9.0,sales do sul,BA,Queda de energia,2.5
+491,20240929,2024.0,9.0,vieira,BA,Manutenção preventiva,4.1
+490,20240929,2024.0,9.0,vieira,BA,Manutenção preventiva,4.1
+491,20240929,2024.0,9.0,vieira,BA,Manutenção preventiva,4.1
+490,20240929,2024.0,9.0,vieira,BA,Manutenção preventiva,4.1
+549,20240907,2024.0,9.0,cardoso,MG,Queda de energia,3.3
+550,20240907,2024.0,9.0,cardoso,MG,Queda de energia,3.3
+550,20240907,2024.0,9.0,cardoso,MG,Queda de energia,3.3
+549,20240907,2024.0,9.0,cardoso,MG,Queda de energia,3.3
+218,20240904,2024.0,9.0,cardoso de almeida,MG,Manutenção preventiva,0.9
+289,20240901,2024.0,9.0,castro,MG,Falta de fase,4.7
+290,20240901,2024.0,9.0,castro,MG,Falta de fase,4.7
+289,20240901,2024.0,9.0,castro,MG,Falta de fase,4.7
+290,20240901,2024.0,9.0,castro,MG,Falta de fase,4.7
+611,20240912,2024.0,9.0,da luz da prata,MG,Manutenção preventiva,0.9
+625,20240923,2024.0,9.0,fernandes,MG,Queda de energia,2.1
+624,20240923,2024.0,9.0,fernandes,MG,Queda de energia,2.1
+625,20240923,2024.0,9.0,fernandes,MG,Queda de energia,2.1
+624,20240923,2024.0,9.0,fernandes,MG,Queda de energia,2.1
+346,20240906,2024.0,9.0,monteiro,MG,Manutenção preventiva,4.5
+345,20240906,2024.0,9.0,monteiro,MG,Manutenção preventiva,4.5
+346,20240906,2024.0,9.0,monteiro,MG,Manutenção preventiva,4.5
+345,20240906,2024.0,9.0,monteiro,MG,Manutenção preventiva,4.5
+628,20240912,2024.0,9.0,moraes das flores,MG,Queda de energia,3.4
+305,20240930,2024.0,9.0,novaes,MG,Falta de fase,4.2
+305,20240930,2024.0,9.0,novaes,MG,Falta de fase,4.2
+306,20240930,2024.0,9.0,novaes,MG,Falta de fase,4.2
+306,20240930,2024.0,9.0,novaes,MG,Falta de fase,4.2
+688,20240908,2024.0,9.0,novaes de nunes,MG,Manutenção preventiva,2.7
+195,20240927,2024.0,9.0,rezende,MG,Manutenção preventiva,4.2
+194,20240927,2024.0,9.0,rezende,MG,Manutenção preventiva,4.2
+195,20240927,2024.0,9.0,rezende,MG,Manutenção preventiva,4.2
+194,20240927,2024.0,9.0,rezende,MG,Manutenção preventiva,4.2
+279,20240908,2024.0,9.0,almeida,SP,Falta de fase,1.1
+280,20240908,2024.0,9.0,almeida,SP,Falta de fase,1.1
+279,20240908,2024.0,9.0,almeida,SP,Falta de fase,1.1
+280,20240908,2024.0,9.0,almeida,SP,Falta de fase,1.1
+503,20240923,2024.0,9.0,castro,SP,Falta de fase,1.1
+503,20240923,2024.0,9.0,castro,SP,Falta de fase,1.1
+504,20240923,2024.0,9.0,castro,SP,Falta de fase,1.1
+504,20240923,2024.0,9.0,castro,SP,Falta de fase,1.1
+512,20240906,2024.0,9.0,cavalcanti das pedras,SP,Queda de energia,2.6
+308,20240908,2024.0,9.0,cunha,SP,Manutenção preventiva,1.4
+309,20240908,2024.0,9.0,cunha,SP,Manutenção preventiva,1.4
+309,20240908,2024.0,9.0,cunha,SP,Manutenção preventiva,1.4
+308,20240908,2024.0,9.0,cunha,SP,Manutenção preventiva,1.4
+606,20240930,2024.0,9.0,da conceição do sul,SP,Manutenção preventiva,4.0
+593,20240907,2024.0,9.0,da mata,SP,Falta de fase,2.8
+592,20240907,2024.0,9.0,da mata,SP,Falta de fase,2.8
+592,20240907,2024.0,9.0,da mata,SP,Falta de fase,2.8
+593,20240907,2024.0,9.0,da mata,SP,Falta de fase,2.8
+466,20240927,2024.0,9.0,da rocha,SP,Falta de fase,1.1
+466,20240927,2024.0,9.0,da rocha,SP,Falta de fase,1.1
+465,20240927,2024.0,9.0,da rocha,SP,Falta de fase,1.1
+465,20240927,2024.0,9.0,da rocha,SP,Falta de fase,1.1
+55,20240909,2024.0,9.0,dias,SP,Manutenção preventiva,0.9
+54,20240909,2024.0,9.0,dias,SP,Manutenção preventiva,0.9
+54,20240909,2024.0,9.0,dias,SP,Manutenção preventiva,0.9
+55,20240909,2024.0,9.0,dias,SP,Manutenção preventiva,0.9
+551,20240905,2024.0,9.0,duarte,SP,Manutenção preventiva,4.0
+552,20240905,2024.0,9.0,duarte,SP,Manutenção preventiva,4.0
+551,20240905,2024.0,9.0,duarte,SP,Manutenção preventiva,4.0
+552,20240905,2024.0,9.0,duarte,SP,Manutenção preventiva,4.0
+474,20240918,2024.0,9.0,lima de silveira,SP,Manutenção preventiva,5.5
+129,20240905,2024.0,9.0,mendes,SP,Queda de energia,2.5
+130,20240905,2024.0,9.0,mendes,SP,Queda de energia,2.5
+130,20240905,2024.0,9.0,mendes,SP,Queda de energia,2.5
+129,20240905,2024.0,9.0,mendes,SP,Queda de energia,2.5
+570,20240911,2024.0,9.0,nogueira,SP,Manutenção preventiva,3.7
+569,20240911,2024.0,9.0,nogueira,SP,Manutenção preventiva,3.7
+570,20240911,2024.0,9.0,nogueira,SP,Manutenção preventiva,3.7
+569,20240911,2024.0,9.0,nogueira,SP,Manutenção preventiva,3.7
+323,20240921,2024.0,9.0,nunes paulista,SP,Falta de fase,2.4
+323,20240921,2024.0,9.0,nunes paulista,SP,Falta de fase,2.4
+324,20240921,2024.0,9.0,nunes paulista,SP,Falta de fase,2.4
+324,20240921,2024.0,9.0,nunes paulista,SP,Falta de fase,2.4
+576,20240903,2024.0,9.0,viana da serra,SP,Falta de fase,5.3
+80,20241001,2024.0,10.0,cunha,BA,Falta de fase,3.5
+79,20241001,2024.0,10.0,cunha,BA,Falta de fase,3.5
+80,20241001,2024.0,10.0,cunha,BA,Falta de fase,3.5
+79,20241001,2024.0,10.0,cunha,BA,Falta de fase,3.5
+758,20241026,2024.0,10.0,da costa,BA,Manutenção preventiva,5.0
+758,20241026,2024.0,10.0,da costa,BA,Manutenção preventiva,5.0
+759,20241026,2024.0,10.0,da costa,BA,Manutenção preventiva,5.0
+759,20241026,2024.0,10.0,da costa,BA,Manutenção preventiva,5.0
+331,20241012,2024.0,10.0,da cunha da praia,BA,Queda de energia,0.6
+753,20241005,2024.0,10.0,da cunha das flores,BA,Queda de energia,5.2
+131,20241006,2024.0,10.0,da mota,BA,Falta de fase,5.2
+131,20241006,2024.0,10.0,da mota,BA,Falta de fase,5.2
+132,20241006,2024.0,10.0,da mota,BA,Falta de fase,5.2
+132,20241006,2024.0,10.0,da mota,BA,Falta de fase,5.2
+710,20241002,2024.0,10.0,da paz de novaes,BA,Manutenção preventiva,0.9
+641,20241015,2024.0,10.0,da rocha,BA,Queda de energia,5.1
+640,20241015,2024.0,10.0,da rocha,BA,Queda de energia,5.1
+640,20241015,2024.0,10.0,da rocha,BA,Queda de energia,5.1
+641,20241015,2024.0,10.0,da rocha,BA,Queda de energia,5.1
+365,20241029,2024.0,10.0,freitas alegre,BA,Manutenção preventiva,4.5
+366,20241029,2024.0,10.0,freitas alegre,BA,Manutenção preventiva,4.5
+365,20241029,2024.0,10.0,freitas alegre,BA,Manutenção preventiva,4.5
+366,20241029,2024.0,10.0,freitas alegre,BA,Manutenção preventiva,4.5
+119,20241027,2024.0,10.0,mendes,BA,Queda de energia,3.4
+118,20241027,2024.0,10.0,mendes,BA,Queda de energia,3.4
+118,20241027,2024.0,10.0,mendes,BA,Queda de energia,3.4
+119,20241027,2024.0,10.0,mendes,BA,Queda de energia,3.4
+724,20241013,2024.0,10.0,monteiro dos dourados,BA,Queda de energia,4.8
+48,20241002,2024.0,10.0,moura,BA,Queda de energia,5.0
+49,20241002,2024.0,10.0,moura,BA,Queda de energia,5.0
+49,20241002,2024.0,10.0,moura,BA,Queda de energia,5.0
+48,20241002,2024.0,10.0,moura,BA,Queda de energia,5.0
+441,20241004,2024.0,10.0,porto,BA,Falta de fase,5.4
+441,20241004,2024.0,10.0,porto,BA,Falta de fase,5.4
+440,20241004,2024.0,10.0,porto,BA,Falta de fase,5.4
+440,20241004,2024.0,10.0,porto,BA,Falta de fase,5.4
+757,20241026,2024.0,10.0,porto do galho,BA,Queda de energia,1.5
+559,20241022,2024.0,10.0,rodrigues dos dourados,BA,Falta de fase,3.5
+274,20241021,2024.0,10.0,santos,BA,Queda de energia,1.6
+275,20241021,2024.0,10.0,santos,BA,Queda de energia,1.6
+275,20241021,2024.0,10.0,santos,BA,Queda de energia,1.6
+274,20241021,2024.0,10.0,santos,BA,Queda de energia,1.6
+424,20241026,2024.0,10.0,souza,BA,Falta de fase,4.2
+765,20241021,2024.0,10.0,souza paulista,BA,Falta de fase,5.6
+147,20241001,2024.0,10.0,teixeira dos dourados,BA,Queda de energia,4.1
+146,20241001,2024.0,10.0,teixeira dos dourados,BA,Queda de energia,4.1
+147,20241001,2024.0,10.0,teixeira dos dourados,BA,Queda de energia,4.1
+146,20241001,2024.0,10.0,teixeira dos dourados,BA,Queda de energia,4.1
+291,20241029,2024.0,10.0,araújo de moura,MG,Manutenção preventiva,2.3
+112,20241013,2024.0,10.0,barros,MG,Queda de energia,3.8
+113,20241013,2024.0,10.0,barros,MG,Queda de energia,3.8
+113,20241013,2024.0,10.0,barros,MG,Queda de energia,3.8
+112,20241013,2024.0,10.0,barros,MG,Queda de energia,3.8
+703,20241025,2024.0,10.0,campos,MG,Queda de energia,5.1
+704,20241025,2024.0,10.0,campos,MG,Queda de energia,5.1
+704,20241025,2024.0,10.0,campos,MG,Queda de energia,5.1
+703,20241025,2024.0,10.0,campos,MG,Queda de energia,5.1
+486,20241005,2024.0,10.0,correia,MG,Manutenção preventiva,3.6
+485,20241005,2024.0,10.0,correia,MG,Manutenção preventiva,3.6
+485,20241005,2024.0,10.0,correia,MG,Manutenção preventiva,3.6
+486,20241005,2024.0,10.0,correia,MG,Manutenção preventiva,3.6
+412,20241011,2024.0,10.0,costela,MG,Falta de fase,5.2
+276,20241001,2024.0,10.0,da cunha,MG,Falta de fase,5.6
+11,20241030,2024.0,10.0,da luz,MG,Manutenção preventiva,5.3
+10,20241030,2024.0,10.0,da luz,MG,Manutenção preventiva,5.3
+10,20241030,2024.0,10.0,da luz,MG,Manutenção preventiva,5.3
+11,20241030,2024.0,10.0,da luz,MG,Manutenção preventiva,5.3
+447,20241012,2024.0,10.0,da mata dos dourados,MG,Falta de fase,1.7
+446,20241012,2024.0,10.0,da mata dos dourados,MG,Falta de fase,1.7
+446,20241012,2024.0,10.0,da mata dos dourados,MG,Falta de fase,1.7
+447,20241012,2024.0,10.0,da mata dos dourados,MG,Falta de fase,1.7
+349,20241024,2024.0,10.0,da rocha,MG,Falta de fase,3.5
+383,20241026,2024.0,10.0,farias da praia,MG,Queda de energia,3.1
+141,20241020,2024.0,10.0,ferreira,MG,Falta de fase,0.8
+142,20241020,2024.0,10.0,ferreira,MG,Falta de fase,0.8
+141,20241020,2024.0,10.0,ferreira,MG,Falta de fase,0.8
+142,20241020,2024.0,10.0,ferreira,MG,Falta de fase,0.8
+214,20241018,2024.0,10.0,freitas,MG,Queda de energia,1.0
+215,20241018,2024.0,10.0,freitas,MG,Queda de energia,1.0
+215,20241018,2024.0,10.0,freitas,MG,Queda de energia,1.0
+214,20241018,2024.0,10.0,freitas,MG,Queda de energia,1.0
+204,20241021,2024.0,10.0,novaes,MG,Falta de fase,2.3
+247,20241023,2024.0,10.0,novaes,MG,Queda de energia,3.6
+248,20241023,2024.0,10.0,novaes,MG,Queda de energia,3.6
+203,20241021,2024.0,10.0,novaes,MG,Falta de fase,2.3
+204,20241021,2024.0,10.0,novaes,MG,Falta de fase,2.3
+247,20241023,2024.0,10.0,novaes,MG,Queda de energia,3.6
+248,20241023,2024.0,10.0,novaes,MG,Queda de energia,3.6
+203,20241021,2024.0,10.0,novaes,MG,Falta de fase,2.3
+585,20241021,2024.0,10.0,porto de costa,MG,Manutenção preventiva,2.1
+720,20241023,2024.0,10.0,ribeiro de da conceição,MG,Manutenção preventiva,0.8
+555,20241005,2024.0,10.0,silva,MG,Queda de energia,2.4
+555,20241005,2024.0,10.0,silva,MG,Queda de energia,2.4
+556,20241005,2024.0,10.0,silva,MG,Queda de energia,2.4
+556,20241005,2024.0,10.0,silva,MG,Queda de energia,2.4
+14,20241024,2024.0,10.0,alves de cardoso,SP,Manutenção preventiva,0.6
+741,20241012,2024.0,10.0,alves do norte,SP,Falta de fase,3.1
+318,20241021,2024.0,10.0,cardoso do sul,SP,Queda de energia,1.1
+607,20241020,2024.0,10.0,castro do sul,SP,Queda de energia,2.9
+386,20241010,2024.0,10.0,da cunha do galho,SP,Manutenção preventiva,3.2
+667,20241021,2024.0,10.0,da luz da praia,SP,Queda de energia,4.5
+126,20241028,2024.0,10.0,da mata,SP,Falta de fase,4.4
+125,20241028,2024.0,10.0,da mata,SP,Falta de fase,4.4
+126,20241028,2024.0,10.0,da mata,SP,Falta de fase,4.4
+125,20241028,2024.0,10.0,da mata,SP,Falta de fase,4.4
+29,20241017,2024.0,10.0,da rocha do amparo,SP,Falta de fase,1.2
+261,20241008,2024.0,10.0,farias de dias,SP,Queda de energia,5.3
+536,20241003,2024.0,10.0,fogaça,SP,Manutenção preventiva,2.5
+535,20241003,2024.0,10.0,fogaça,SP,Manutenção preventiva,2.5
+536,20241003,2024.0,10.0,fogaça,SP,Manutenção preventiva,2.5
+535,20241003,2024.0,10.0,fogaça,SP,Manutenção preventiva,2.5
+509,20241021,2024.0,10.0,freitas,SP,Falta de fase,2.2
+508,20241021,2024.0,10.0,freitas,SP,Falta de fase,2.2
+508,20241021,2024.0,10.0,freitas,SP,Falta de fase,2.2
+509,20241021,2024.0,10.0,freitas,SP,Falta de fase,2.2
+692,20241026,2024.0,10.0,lopes,SP,Manutenção preventiva,3.2
+691,20241026,2024.0,10.0,lopes,SP,Manutenção preventiva,3.2
+691,20241026,2024.0,10.0,lopes,SP,Manutenção preventiva,3.2
+692,20241026,2024.0,10.0,lopes,SP,Manutenção preventiva,3.2
+543,20241004,2024.0,10.0,moreira,SP,Manutenção preventiva,2.8
+542,20241004,2024.0,10.0,moreira,SP,Manutenção preventiva,2.8
+542,20241004,2024.0,10.0,moreira,SP,Manutenção preventiva,2.8
+543,20241004,2024.0,10.0,moreira,SP,Manutenção preventiva,2.8
+172,20241011,2024.0,10.0,moreira dos dourados,SP,Manutenção preventiva,0.9
+407,20241025,2024.0,10.0,moura da serra,SP,Falta de fase,5.2
+145,20241003,2024.0,10.0,vieira de goiás,SP,Manutenção preventiva,1.0
+388,20241102,2024.0,11.0,barros,BA,Falta de fase,2.5
+387,20241102,2024.0,11.0,barros,BA,Falta de fase,2.5
+388,20241102,2024.0,11.0,barros,BA,Falta de fase,2.5
+387,20241102,2024.0,11.0,barros,BA,Falta de fase,2.5
+235,20241114,2024.0,11.0,castro do amparo,BA,Queda de energia,6.0
+168,20241130,2024.0,11.0,da cunha da praia,BA,Falta de fase,0.8
+314,20241110,2024.0,11.0,dias,BA,Manutenção preventiva,2.5
+315,20241110,2024.0,11.0,dias,BA,Manutenção preventiva,2.5
+315,20241110,2024.0,11.0,dias,BA,Manutenção preventiva,2.5
+314,20241110,2024.0,11.0,dias,BA,Manutenção preventiva,2.5
+432,20241103,2024.0,11.0,dias de almeida,BA,Falta de fase,4.7
+417,20241111,2024.0,11.0,farias alegre,BA,Falta de fase,3.1
+608,20241125,2024.0,11.0,mendes do sul,BA,Falta de fase,0.8
+19,20241121,2024.0,11.0,monteiro do galho,BA,Queda de energia,3.2
+742,20241129,2024.0,11.0,moura,BA,Falta de fase,4.2
+52,20241120,2024.0,11.0,moura,BA,Manutenção preventiva,3.6
+53,20241120,2024.0,11.0,moura,BA,Manutenção preventiva,3.6
+742,20241129,2024.0,11.0,moura,BA,Falta de fase,4.2
+53,20241120,2024.0,11.0,moura,BA,Manutenção preventiva,3.6
+743,20241129,2024.0,11.0,moura,BA,Falta de fase,4.2
+52,20241120,2024.0,11.0,moura,BA,Manutenção preventiva,3.6
+743,20241129,2024.0,11.0,moura,BA,Falta de fase,4.2
+381,20241120,2024.0,11.0,nascimento das pedras,BA,Queda de energia,4.9
+6,20241114,2024.0,11.0,rezende,BA,Falta de fase,4.4
+5,20241114,2024.0,11.0,rezende,BA,Falta de fase,4.4
+6,20241114,2024.0,11.0,rezende,BA,Falta de fase,4.4
+5,20241114,2024.0,11.0,rezende,BA,Falta de fase,4.4
+728,20241130,2024.0,11.0,silva,BA,Queda de energia,0.8
+728,20241130,2024.0,11.0,silva,BA,Queda de energia,0.8
+727,20241130,2024.0,11.0,silva,BA,Queda de energia,0.8
+727,20241130,2024.0,11.0,silva,BA,Queda de energia,0.8
+106,20241130,2024.0,11.0,alves do sul,MG,Queda de energia,4.1
+87,20241126,2024.0,11.0,azevedo,MG,Falta de fase,1.7
+88,20241126,2024.0,11.0,azevedo,MG,Falta de fase,1.7
+87,20241126,2024.0,11.0,azevedo,MG,Falta de fase,1.7
+88,20241126,2024.0,11.0,azevedo,MG,Falta de fase,1.7
+57,20241102,2024.0,11.0,barbosa,MG,Manutenção preventiva,3.9
+56,20241102,2024.0,11.0,barbosa,MG,Manutenção preventiva,3.9
+57,20241102,2024.0,11.0,barbosa,MG,Manutenção preventiva,3.9
+56,20241102,2024.0,11.0,barbosa,MG,Manutenção preventiva,3.9
+370,20241112,2024.0,11.0,cardoso,MG,Falta de fase,2.3
+369,20241112,2024.0,11.0,cardoso,MG,Falta de fase,2.3
+370,20241112,2024.0,11.0,cardoso,MG,Falta de fase,2.3
+369,20241112,2024.0,11.0,cardoso,MG,Falta de fase,2.3
+529,20241117,2024.0,11.0,correia,MG,Queda de energia,1.3
+529,20241117,2024.0,11.0,correia,MG,Queda de energia,1.3
+530,20241117,2024.0,11.0,correia,MG,Queda de energia,1.3
+530,20241117,2024.0,11.0,correia,MG,Queda de energia,1.3
+202,20241121,2024.0,11.0,costela,MG,Manutenção preventiva,3.2
+115,20241120,2024.0,11.0,cunha de minas,MG,Manutenção preventiva,1.9
+232,20241103,2024.0,11.0,da rosa,MG,Queda de energia,3.3
+111,20241127,2024.0,11.0,da rosa,MG,Falta de fase,5.9
+110,20241127,2024.0,11.0,da rosa,MG,Falta de fase,5.9
+231,20241103,2024.0,11.0,da rosa,MG,Queda de energia,3.3
+111,20241127,2024.0,11.0,da rosa,MG,Falta de fase,5.9
+110,20241127,2024.0,11.0,da rosa,MG,Falta de fase,5.9
+231,20241103,2024.0,11.0,da rosa,MG,Queda de energia,3.3
+232,20241103,2024.0,11.0,da rosa,MG,Queda de energia,3.3
+100,20241128,2024.0,11.0,fogaça das pedras,MG,Queda de energia,2.5
+100,20241128,2024.0,11.0,fogaça das pedras,MG,Queda de energia,2.5
+101,20241128,2024.0,11.0,fogaça das pedras,MG,Queda de energia,2.5
+101,20241128,2024.0,11.0,fogaça das pedras,MG,Queda de energia,2.5
+178,20241130,2024.0,11.0,gomes,MG,Queda de energia,4.6
+93,20241104,2024.0,11.0,lima,MG,Manutenção preventiva,3.6
+92,20241104,2024.0,11.0,lima,MG,Manutenção preventiva,3.6
+93,20241104,2024.0,11.0,lima,MG,Manutenção preventiva,3.6
+92,20241104,2024.0,11.0,lima,MG,Manutenção preventiva,3.6
+105,20241105,2024.0,11.0,monteiro de cavalcanti,MG,Falta de fase,3.3
+527,20241111,2024.0,11.0,moreira do oeste,MG,Manutenção preventiva,1.3
+16,20241128,2024.0,11.0,moura do norte,MG,Manutenção preventiva,0.7
+461,20241118,2024.0,11.0,nunes da mata,MG,Falta de fase,4.7
+222,20241103,2024.0,11.0,ramos,MG,Falta de fase,3.3
+222,20241103,2024.0,11.0,ramos,MG,Falta de fase,3.3
+221,20241103,2024.0,11.0,ramos,MG,Falta de fase,3.3
+221,20241103,2024.0,11.0,ramos,MG,Falta de fase,3.3
+475,20241119,2024.0,11.0,souza das pedras,MG,Manutenção preventiva,1.1
+343,20241110,2024.0,11.0,vieira,MG,Queda de energia,1.9
+344,20241110,2024.0,11.0,vieira,MG,Queda de energia,1.9
+344,20241110,2024.0,11.0,vieira,MG,Queda de energia,1.9
+343,20241110,2024.0,11.0,vieira,MG,Queda de energia,1.9
+435,20241121,2024.0,11.0,alves,SP,Manutenção preventiva,3.2
+572,20241115,2024.0,11.0,aragão verde,SP,Queda de energia,2.8
+454,20241114,2024.0,11.0,caldeira do amparo,SP,Queda de energia,3.8
+737,20241120,2024.0,11.0,cardoso,SP,Falta de fase,4.1
+738,20241120,2024.0,11.0,cardoso,SP,Falta de fase,4.1
+737,20241120,2024.0,11.0,cardoso,SP,Falta de fase,4.1
+738,20241120,2024.0,11.0,cardoso,SP,Falta de fase,4.1
+157,20241126,2024.0,11.0,da conceição das pedras,SP,Queda de energia,5.7
+658,20241105,2024.0,11.0,da luz alegre,SP,Falta de fase,3.7
+746,20241122,2024.0,11.0,da luz de santos,SP,Queda de energia,4.2
+734,20241108,2024.0,11.0,da mata,SP,Falta de fase,1.2
+735,20241108,2024.0,11.0,da mata,SP,Falta de fase,1.2
+735,20241108,2024.0,11.0,da mata,SP,Falta de fase,1.2
+734,20241108,2024.0,11.0,da mata,SP,Falta de fase,1.2
+124,20241130,2024.0,11.0,dias do oeste,SP,Manutenção preventiva,2.1
+188,20241126,2024.0,11.0,farias da serra,SP,Falta de fase,1.8
+645,20241105,2024.0,11.0,lopes,SP,Queda de energia,2.4
+644,20241105,2024.0,11.0,lopes,SP,Queda de energia,2.4
+645,20241105,2024.0,11.0,lopes,SP,Queda de energia,2.4
+644,20241105,2024.0,11.0,lopes,SP,Queda de energia,2.4
+397,20241108,2024.0,11.0,oliveira das pedras,SP,Falta de fase,0.6
+502,20241118,2024.0,11.0,oliveira de da paz,SP,Manutenção preventiva,3.8
+144,20241126,2024.0,11.0,souza do norte,SP,Manutenção preventiva,1.1
+71,20241210,2024.0,12.0,castro,BA,Falta de fase,1.2
+70,20241210,2024.0,12.0,castro,BA,Falta de fase,1.2
+71,20241210,2024.0,12.0,castro,BA,Falta de fase,1.2
+70,20241210,2024.0,12.0,castro,BA,Falta de fase,1.2
+83,20241212,2024.0,12.0,costa,BA,Falta de fase,4.0
+84,20241212,2024.0,12.0,costa,BA,Falta de fase,4.0
+83,20241212,2024.0,12.0,costa,BA,Falta de fase,4.0
+84,20241212,2024.0,12.0,costa,BA,Falta de fase,4.0
+528,20241202,2024.0,12.0,cunha do sul,BA,Manutenção preventiva,4.7
+185,20241220,2024.0,12.0,da conceição,BA,Manutenção preventiva,2.6
+186,20241220,2024.0,12.0,da conceição,BA,Manutenção preventiva,2.6
+185,20241220,2024.0,12.0,da conceição,BA,Manutenção preventiva,2.6
+186,20241220,2024.0,12.0,da conceição,BA,Manutenção preventiva,2.6
+277,20241225,2024.0,12.0,da mota,BA,Manutenção preventiva,4.1
+278,20241225,2024.0,12.0,da mota,BA,Manutenção preventiva,4.1
+278,20241225,2024.0,12.0,da mota,BA,Manutenção preventiva,4.1
+277,20241225,2024.0,12.0,da mota,BA,Manutenção preventiva,4.1
+165,20241211,2024.0,12.0,da paz,BA,Queda de energia,2.1
+164,20241211,2024.0,12.0,da paz,BA,Queda de energia,2.1
+164,20241211,2024.0,12.0,da paz,BA,Queda de energia,2.1
+165,20241211,2024.0,12.0,da paz,BA,Queda de energia,2.1
+448,20241203,2024.0,12.0,das neves de minas,BA,Queda de energia,3.5
+1,20241202,2024.0,12.0,dias do sul,BA,Queda de energia,5.7
+630,20241203,2024.0,12.0,fogaça,BA,Queda de energia,5.8
+629,20241203,2024.0,12.0,fogaça,BA,Queda de energia,5.8
+630,20241203,2024.0,12.0,fogaça,BA,Queda de energia,5.8
+629,20241203,2024.0,12.0,fogaça,BA,Queda de energia,5.8
+354,20241203,2024.0,12.0,gonçalves,BA,Falta de fase,0.8
+355,20241203,2024.0,12.0,gonçalves,BA,Falta de fase,0.8
+354,20241203,2024.0,12.0,gonçalves,BA,Falta de fase,0.8
+355,20241203,2024.0,12.0,gonçalves,BA,Falta de fase,0.8
+333,20241202,2024.0,12.0,lima de cunha,BA,Manutenção preventiva,0.5
+296,20241207,2024.0,12.0,lopes,BA,Manutenção preventiva,0.7
+295,20241207,2024.0,12.0,lopes,BA,Manutenção preventiva,0.7
+296,20241207,2024.0,12.0,lopes,BA,Manutenção preventiva,0.7
+295,20241207,2024.0,12.0,lopes,BA,Manutenção preventiva,0.7
+565,20241228,2024.0,12.0,moraes,BA,Manutenção preventiva,0.9
+566,20241228,2024.0,12.0,moraes,BA,Manutenção preventiva,0.9
+565,20241228,2024.0,12.0,moraes,BA,Manutenção preventiva,0.9
+566,20241228,2024.0,12.0,moraes,BA,Manutenção preventiva,0.9
+61,20241209,2024.0,12.0,moura,BA,Manutenção preventiva,6.0
+60,20241209,2024.0,12.0,moura,BA,Manutenção preventiva,6.0
+60,20241209,2024.0,12.0,moura,BA,Manutenção preventiva,6.0
+61,20241209,2024.0,12.0,moura,BA,Manutenção preventiva,6.0
+207,20241210,2024.0,12.0,novaes,BA,Falta de fase,3.5
+206,20241210,2024.0,12.0,novaes,BA,Falta de fase,3.5
+207,20241210,2024.0,12.0,novaes,BA,Falta de fase,3.5
+206,20241210,2024.0,12.0,novaes,BA,Falta de fase,3.5
+153,20241230,2024.0,12.0,rezende,BA,Queda de energia,1.6
+153,20241230,2024.0,12.0,rezende,BA,Queda de energia,1.6
+154,20241230,2024.0,12.0,rezende,BA,Queda de energia,1.6
+154,20241230,2024.0,12.0,rezende,BA,Queda de energia,1.6
+97,20241228,2024.0,12.0,ribeiro,BA,Falta de fase,4.0
+96,20241228,2024.0,12.0,ribeiro,BA,Falta de fase,4.0
+97,20241228,2024.0,12.0,ribeiro,BA,Falta de fase,4.0
+96,20241228,2024.0,12.0,ribeiro,BA,Falta de fase,4.0
+340,20241205,2024.0,12.0,vieira,BA,Manutenção preventiva,5.1
+341,20241205,2024.0,12.0,vieira,BA,Manutenção preventiva,5.1
+340,20241205,2024.0,12.0,vieira,BA,Manutenção preventiva,5.1
+341,20241205,2024.0,12.0,vieira,BA,Manutenção preventiva,5.1
+721,20241204,2024.0,12.0,barros de sales,MG,Queda de energia,5.3
+732,20241212,2024.0,12.0,barros de silva,MG,Queda de energia,2.4
+670,20241209,2024.0,12.0,correia,MG,Falta de fase,4.0
+670,20241209,2024.0,12.0,correia,MG,Falta de fase,4.0
+671,20241209,2024.0,12.0,correia,MG,Falta de fase,4.0
+671,20241209,2024.0,12.0,correia,MG,Falta de fase,4.0
+583,20241219,2024.0,12.0,fogaça,MG,Queda de energia,5.8
+584,20241219,2024.0,12.0,fogaça,MG,Queda de energia,5.8
+584,20241219,2024.0,12.0,fogaça,MG,Queda de energia,5.8
+583,20241219,2024.0,12.0,fogaça,MG,Queda de energia,5.8
+409,20241216,2024.0,12.0,nascimento,MG,Queda de energia,3.7
+410,20241216,2024.0,12.0,nascimento,MG,Queda de energia,3.7
+409,20241216,2024.0,12.0,nascimento,MG,Queda de energia,3.7
+410,20241216,2024.0,12.0,nascimento,MG,Queda de energia,3.7
+651,20241205,2024.0,12.0,nunes alegre,MG,Falta de fase,3.4
+433,20241229,2024.0,12.0,peixoto das pedras,MG,Queda de energia,2.2
+81,20241223,2024.0,12.0,pereira dos dourados,MG,Queda de energia,1.8
+82,20241223,2024.0,12.0,pereira dos dourados,MG,Queda de energia,1.8
+82,20241223,2024.0,12.0,pereira dos dourados,MG,Queda de energia,1.8
+81,20241223,2024.0,12.0,pereira dos dourados,MG,Queda de energia,1.8
+631,20241216,2024.0,12.0,rezende,MG,Queda de energia,5.6
+632,20241216,2024.0,12.0,rezende,MG,Queda de energia,5.6
+631,20241216,2024.0,12.0,rezende,MG,Queda de energia,5.6
+632,20241216,2024.0,12.0,rezende,MG,Queda de energia,5.6
+456,20241207,2024.0,12.0,rezende de ribeiro,MG,Falta de fase,5.9
+617,20241202,2024.0,12.0,araújo do campo,SP,Queda de energia,4.0
+617,20241202,2024.0,12.0,araújo do campo,SP,Queda de energia,4.0
+616,20241202,2024.0,12.0,araújo do campo,SP,Queda de energia,4.0
+616,20241202,2024.0,12.0,araújo do campo,SP,Queda de energia,4.0
+208,20241214,2024.0,12.0,cardoso do sul,SP,Falta de fase,5.6
+684,20241228,2024.0,12.0,cavalcanti,SP,Queda de energia,3.9
+683,20241228,2024.0,12.0,cavalcanti,SP,Queda de energia,3.9
+684,20241228,2024.0,12.0,cavalcanti,SP,Queda de energia,3.9
+683,20241228,2024.0,12.0,cavalcanti,SP,Queda de energia,3.9
+272,20241217,2024.0,12.0,da costa das pedras,SP,Falta de fase,1.7
+599,20241208,2024.0,12.0,da cunha,SP,Falta de fase,1.9
+599,20241208,2024.0,12.0,da cunha,SP,Falta de fase,1.9
+600,20241208,2024.0,12.0,da cunha,SP,Falta de fase,1.9
+600,20241208,2024.0,12.0,da cunha,SP,Falta de fase,1.9
+764,20241224,2024.0,12.0,das neves,SP,Manutenção preventiva,0.6
+763,20241224,2024.0,12.0,das neves,SP,Manutenção preventiva,0.6
+452,20241212,2024.0,12.0,das neves,SP,Falta de fase,1.7
+453,20241212,2024.0,12.0,das neves,SP,Falta de fase,1.7
+763,20241224,2024.0,12.0,das neves,SP,Manutenção preventiva,0.6
+453,20241212,2024.0,12.0,das neves,SP,Falta de fase,1.7
+764,20241224,2024.0,12.0,das neves,SP,Manutenção preventiva,0.6
+452,20241212,2024.0,12.0,das neves,SP,Falta de fase,1.7
+619,20241223,2024.0,12.0,fernandes,SP,Manutenção preventiva,4.4
+620,20241223,2024.0,12.0,fernandes,SP,Manutenção preventiva,4.4
+620,20241223,2024.0,12.0,fernandes,SP,Manutenção preventiva,4.4
+619,20241223,2024.0,12.0,fernandes,SP,Manutenção preventiva,4.4
+662,20241204,2024.0,12.0,fogaça de da cunha,SP,Queda de energia,4.6
+294,20241228,2024.0,12.0,gomes do campo,SP,Falta de fase,5.7
+567,20241203,2024.0,12.0,oliveira,SP,Falta de fase,3.6
+568,20241203,2024.0,12.0,oliveira,SP,Falta de fase,3.6
+568,20241203,2024.0,12.0,oliveira,SP,Falta de fase,3.6
+567,20241203,2024.0,12.0,oliveira,SP,Falta de fase,3.6
+63,20241209,2024.0,12.0,ribeiro das pedras,SP,Manutenção preventiva,4.1

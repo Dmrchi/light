@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: source_data
+    database: dblight
+    schema: public
+    tables:
+      - name: clientes_bruto
+        description: 'Dados cadastrais brutos de clientes.'
+
+      - name: medicoes_energia_bruto
+        description: 'Dados brutos de medições de consumo de energia.'
+
+      - name: ocorrencias_tecnicas_bruto
+        description: 'Dados brutos de ocorrências técnicas e tempo de reparo.'
+
+      - name: perdas_energia_bruto
+        description: 'Dados brutos de perdas técnicas e não técnicas de energia.'
