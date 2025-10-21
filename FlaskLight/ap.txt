@@ -1,0 +1,66 @@
+from flask import Flask
+import pandas as pd
+from sqlalchemy import text
+from flask_sqlalchemy import SQLAlchemy
+app = Flask(__name__)
+
+db_user = 'postgres'
+db_pass = 'password'
+db_host = 'localhost'
+db_name = 'lightdb'
+db_port = '5432'
+
+
+#string de conexao
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}'
+
+#desativa o rastreamento de modificações para economizar recursos
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+#cria a instância do SQLAlchemy, conectando-a ao app Flask
+db = SQLAlchemy(app)
+
+#modelo exemplo
+#class Produto(db.Model):
+#    id = db.Column(db.Integer, primary_key=True)
+#    nome = db.Column(db.String(100), nullable=False)
+#    preco = db.Column(db.Float, nullable=False)
+
+#    def __repr__(self):
+#        return f'<Produto {self.nome}>'
+
+@app.route('/')
+def index():
+    return "<h1>Aplicação Flask conectada ao PostgreSQL!</h1>"
+
+@app.route('/produtos')
+def listar_produtos():
+    """
+    Busca produtos no banco de dados e os exibe usando Pandas.
+    """
+    try:
+        # Adiciona alguns dados de exemplo se a tabela estiver vazia
+#        with app.app_context():
+#            if not Produto.query.first():
+#                produto1 = Produto(nome='Notebook', preco=3500.50)
+#                produto2 = Produto(nome='Mouse sem fio', preco=89.90)
+#                db.session.add(produto1)
+#                db.session.add(produto2)
+#                db.session.commit()
+
+        # Consulta para selecionar todos os produtos
+#        query = text("SELECT * FROM produto ORDER BY nome")
+
+        # O db.engine é a conexão subjacente que o Pandas pode usar
+ #       df = pd.read_sql(query, db.engine)
+
+        # Converte o DataFrame para HTML para fácil visualização
+#        return f"<h1>Lista de Produtos</h1>{df.to_html(classes='table table-striped', index=False)}"
+         return "ola"
+    except Exception as e:
+        return f"Ocorreu um erro: {e}"
+
+if __name__ == '__main__':
+    with app.app_context():
+#db.create_all()
+        app.run(debug=True)
