@@ -3,7 +3,14 @@ import pandas as pd
 from sqlalchemy import text
 from flask_sqlalchemy import SQLAlchemy
 import logging
+import random
+from flask import Flask, jsonify
+from faker import Faker
+from datetime import date, timedelta, datetime
+import os
 import urllib
+import calendar
+from sqlalchemy.exc import OperationalError, ProgrammingError
 app = Flask(__name__)
 
 db_user = 'postgres'
@@ -17,6 +24,128 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 logging.basicConfig(level=logging.INFO)
+
+#Inicializa o Faker aqui, no escopo global
+fake = Faker('pt_BR')
+DADOS_BASE = {}
+
+MAP_ESTADOS_ID = {
+    'BA': '5fc810cf62601df84b7923b9964c53e6',
+    'MG': 'ba2a034f4d913f87fe07cad29368d114',
+    'SP': '674769e3326f8cf937af4282f2815c02'
+}
+
+
+# --- Lógica de Setup ---
+def setup_dimensoes_em_memoria():
+    """
+    Carrega localizações válidas do DB e tipos de cliente para a memória.
+    Esta função AGORA será chamada no início da aplicação.
+    """
+    global DADOS_BASE
+    logging.info("Iniciando setup: Carregando dimensões do BD...")
+
+    sql_localizacoes = text("""
+                            SELECT l.id_localizacao,
+                                   l.id_estado,
+                                   l.cidade,
+                                   e.estado AS estado_sigla
+                            FROM public_analytics.dim_localizacao AS l
+                                     JOIN public_analytics.dim_estado AS e ON l.id_estado = e.id_estado
+                            """)
+
+    sql_tipos_cliente = text("""
+                             SELECT DISTINCT tipo_cliente
+                             FROM public.clientes_bruto
+                             WHERE tipo_cliente IS NOT NULL;
+                             """)
+
+    try:
+        # Abertura de conexão para as operações de leitura
+        # Isso funciona porque estaremos dentro do app_context()
+        with db.engine.connect() as conn:
+            # 1. Carrega as Localizações Válidas do BD
+            df_local = pd.read_sql(sql_localizacoes, conn)
+            DADOS_BASE['localizacoes'] = df_local.to_dict('records')
+
+            # 2. Carrega os Tipos de Cliente Distintos
+            df_tipos = pd.read_sql(sql_tipos_cliente, conn)
+            DADOS_BASE['tipos_cliente'] = df_tipos['tipo_cliente'].astype(str).unique().tolist()
+
+            # Data de adesão em 2025
+            DADOS_BASE['intervalo_data'] = (date(2025, 1, 1), date(2025, 1, 31))
+
+            # Log de sucesso
+            logging.info(
+                f"✅ Setup concluído. {len(DADOS_BASE['localizacoes'])} localizações e {len(DADOS_BASE['tipos_cliente'])} tipos de cliente carregados.")
+
+    except (OperationalError, ProgrammingError) as e:
+        logging.error(f"ERRO FATAL no Setup: Falha na Conexão ou SQL.")
+        logging.error(
+            f"   Por favor, verifique se o PostgreSQL está rodando e se as tabelas (dim_localizacao, clientes_bruto) existem.")
+        logging.error(f"   Detalhes do Erro: {e}")
+
+        # Fallback de segurança
+        DADOS_BASE['localizacoes'] = []
+        DADOS_BASE['tipos_cliente'] = ['Comercial', 'Industrial']
+        DADOS_BASE['intervalo_data'] = (date(2025, 1, 1), date(2025, 12, 31))
+
+    except Exception as e:
+        logging.error(f"ERRO INESPERADO no Setup: {e}")
+        DADOS_BASE['localizacoes'] = []
+        DADOS_BASE['tipos_cliente'] = ['Comercial', 'Industrial']
+        DADOS_BASE['intervalo_data'] = (date(2025, 1, 1), date(2025, 12, 31))
+
+
+# --- Lógica de Geração ---
+def get_proximo_id_cliente(db_instance):
+    """
+    Busca o MAX(id_cliente) na tabela clientes_bruto e retorna + 1.
+    """
+    sql_max_id = text("SELECT MAX(id_cliente) AS ultimo_id FROM public.clientes_bruto;")
+
+    try:
+        with db_instance.engine.connect() as conn:
+            resultado = conn.execute(sql_max_id).scalar()
+            proximo_id = (resultado or 0) + 1
+            logging.info(f"Próximo ID de cliente: {proximo_id}")
+            return proximo_id
+    except Exception as e:
+        logging.error(f"ERRO ao buscar MAX(id_cliente): {e}")
+        return random.randint(900000, 999999)
+
+
+def criar_cliente_aleatorio(db_instance):
+    """
+    Cria um cliente combinando dados do Faker (nome, data)
+    com dados coerentes do BD (localização, tipo_cliente) e id sequencial.
+    """
+    if not DADOS_BASE.get('localizacoes'):
+        logging.error("Dados base não disponíveis. Setup falhou ou não encontrou localizações.")
+        return None
+
+    #1.Busca o ID sequencial
+    proximo_id = get_proximo_id_cliente(db_instance)
+
+    #2.Seleção aleatória de localização coerente
+    local = random.choice(DADOS_BASE['localizacoes'])
+    data_inicio, data_fim = DADOS_BASE['intervalo_data']
+
+    #Gera a data aleatória em 2025
+    data_adesao = fake.date_between(start_date=data_inicio, end_date=data_fim).strftime('%Y-%m-%d')
+
+    novo_cliente = {
+        "id_cliente": proximo_id,
+        "id_localizacao": local['id_localizacao'],
+        "id_estado": local['id_estado'],
+        "nome_cliente": fake.name(),
+        "cidade": local['cidade'],
+        "estado_sigla": local['estado_sigla'],
+        "tipo_cliente": random.choice(DADOS_BASE['tipos_cliente']),
+        "data_adesao": data_adesao,
+    }
+    return novo_cliente
+
 @app.route('/')
 def index():
     return (
@@ -346,5 +475,389 @@ def listar_duplicatas():
             f"<p>{e}</p>"
             f"<p><b>Dica:</b> Você já rodou a rota <a href='/processar-etl-completo'>/processar-etl-completo</a> pelo menos uma vez?</p>"
         )
+
+
+@app.route('/test-cliente-faker', methods=['GET'])
+def get_cliente_faker():
+    """Endpoint que retorna um cliente aleatório com integridade de localização."""
+    cliente = criar_cliente_aleatorio(db)
+
+    if cliente is None:
+        return jsonify({"erro": "Falha na geração. O setup do DB (setup_dimensoes_em_memoria) pode ter falhado."}, 500)
+
+    return jsonify(cliente)
+
+
+@app.route('/adicionar-cliente-faker', methods=['GET'])
+def adicionar_cliente_faker():
+    """
+    Cria um cliente aleatório E salva na tabela public.clientes_bruto.
+    """
+    # 1. Gera o cliente da mesma forma
+    cliente_data = criar_cliente_aleatorio(db)
+
+    if cliente_data is None:
+        return jsonify({"erro": "Falha na geração. O setup do DB (setup_dimensoes_em_memoria) pode ter falhado."}, 500)
+
+    # 2. Mapeia o dicionário para a tabela clientes_bruto (baseado na sua screenshot)
+    #    - Remove id_localizacao/id_estado (que não estão em clientes_bruto)
+    #    - Renomeia estado_sigla -> estado
+    dados_para_inserir = {
+        "id_cliente": cliente_data["id_cliente"],
+        "nome_cliente": cliente_data["nome_cliente"],
+        "cidade": cliente_data["cidade"],
+        "estado": cliente_data["estado_sigla"],  # Renomeia a chave
+        "tipo_cliente": cliente_data["tipo_cliente"],
+        "data_adesao": cliente_data["data_adesao"]
+    }
+
+    # 3. SQL para inserção
+    #    Usamos os nomes das colunas da tabela clientes_bruto
+    sql_insert = text("""
+                      INSERT INTO public.clientes_bruto
+                          (id_cliente, nome_cliente, cidade, estado, tipo_cliente, data_adesao)
+                      VALUES (:id_cliente, :nome_cliente, :cidade, :estado, :tipo_cliente, :data_adesao)
+                      """)
+
+    try:
+        # 4. Executa a inserção dentro de uma transação
+        #    db.session.begin() cuida do commit (se sucesso) e rollback (se erro)
+        with db.session.begin():
+            db.session.execute(sql_insert, dados_para_inserir)
+
+        logging.info(f"Cliente {dados_para_inserir['id_cliente']} inserido com sucesso.")
+        return jsonify({
+            "status": "SUCESSO",
+            "mensagem": "Cliente fake inserido na tabela clientes_bruto.",
+            "cliente_inserido": dados_para_inserir
+        })
+
+    except Exception as e:
+        logging.error(f"ERRO ao inserir cliente fake: {e}")
+        return jsonify({
+            "status": "FALHA",
+            "mensagem": "Erro ao salvar cliente no banco de dados.",
+            "detalhe": str(e)
+        }, 500)
+
+
+@app.route('/teste-conexao', methods=['GET'])
+def teste_conexao():
+    """
+    Endpoint de diagnóstico que consulta o último registro da tabela clientes_bruto
+    para testar a conexão com o PostgreSQL e a existência da tabela.
+    """
+    logging.info("Iniciando teste de conexão com o PostgreSQL...")
+    sql_ultimo_registro = text("SELECT * FROM public.clientes_bruto ORDER BY id_cliente DESC LIMIT 1;")
+
+    try:
+        with db.engine.connect() as conn:
+            resultado = pd.read_sql(sql_ultimo_registro, conn)
+
+            if resultado.empty:
+                return jsonify({
+                    "status": "SUCESSO (Tabela Vazia)",
+                    "mensagem": "Conexão com o PostgreSQL bem-sucedida, mas a tabela public.clientes_bruto não contém registros."
+                })
+
+            # Converte para dict (precisa converter tipos de dados do pandas/db)
+            ultimo_registro = resultado.iloc[0].to_dict()
+            # Converte tipos não-serializáveis (como datas, decimais, etc) para string
+            ultimo_registro_serializado = {k: str(v) for k, v in ultimo_registro.items()}
+
+            logging.info("Conexão e consulta de teste bem-sucedidas.")
+            return jsonify({
+                "status": "SUCESSO",
+                "mensagem": "Conexão com o PostgreSQL e consulta à tabela public.clientes_bruto OK.",
+                "ultimo_registro": ultimo_registro_serializado
+            })
+
+    except Exception as e:
+        logging.error(f"ERRO DE CONEXÃO/CONSULTA: {e}")
+        mensagem_erro = str(e)
+        detalhe = f"Erro de banco de dados: {mensagem_erro}"
+
+        if "fe_sendauth" in mensagem_erro or "password" in mensagem_erro:
+            detalhe = "Verifique as credenciais (db_user, db_pass)."
+        elif "could not connect to server" in mensagem_erro:
+            detalhe = "Verifique se o host (db_host) e a porta (db_port) estão corretos e se o PostgreSQL está rodando."
+        elif "relation" in mensagem_erro and "does not exist" in mensagem_erro:
+            detalhe = "A tabela 'public.clientes_bruto' (ou outra consultada no setup) não existe."
+
+        return jsonify({
+            "status": "FALHA NA CONEXÃO",
+            "mensagem": "Não foi possível conectar ao banco de dados ou a tabela não existe.",
+            "detalhe": detalhe
+        }, 500)
+
+
+@app.route('/gerar-medicoes-lote', methods=['POST'])
+def gerar_medicoes_lote():
+    """
+    Gera e insere dados mock em lote para a tabela medicoes_energia_bruto
+    para clientes de 1001 a 1050 (9 meses cada).
+    Usa o db.session do Flask-SQLAlchemy.
+    """
+    logging.info("Iniciando geração de medições em lote...")
+
+    dados_para_inserir = []
+
+    CLIENTE_ID_INICIAL = 1001
+    CLIENTE_ID_FINAL = 1050
+    MES_INICIAL = 2
+    MES_FINAL = 10
+
+    try:
+        # --- CORREÇÃO AQUI ---
+        # Inicia a transação ANTES de qualquer operação de DB
+        with db.session.begin():
+
+            # 1. Buscar o último id_medicao da tabela
+            sql_max_id = text("SELECT MAX(id_medicao) FROM public.medicoes_energia_bruto")
+            resultado = db.session.execute(sql_max_id).scalar()
+
+            proximo_id_medicao = (resultado or 0) + 1
+
+            logging.info(f"Iniciando geração. Próximo id_medicao: {proximo_id_medicao}")
+
+            # 2. Gerar os dados mock em memória
+            for id_cliente in range(CLIENTE_ID_INICIAL, CLIENTE_ID_FINAL + 1):
+                for mes in range(MES_INICIAL, MES_FINAL + 1):
+                    data_medicao_str = f"2025-{mes:02d}-01"
+                    consumo_kwh_val = round(fake.pyfloat(min_value=600, max_value=3000, right_digits=2), 2)
+
+                    dados_para_inserir.append({
+                        "id_medicao": proximo_id_medicao,
+                        "id_cliente": id_cliente,
+                        "data_medicao": data_medicao_str,
+                        "consumo_kwh": consumo_kwh_val,
+                        "tipo_medicao": "Normal"
+                    })
+                    proximo_id_medicao += 1
+
+            # 3. Inserir todos os dados em lote
+            if not dados_para_inserir:
+                logging.warning("Nenhum dado foi gerado para inserção.")
+                # Retornar aqui não causará problemas,
+                # o 'with' fará um rollback automático da transação vazia.
+                return jsonify({"status": "aviso", "mensagem": "Nenhum dado foi gerado."}), 200
+
+            logging.info(f"Pronto para inserir {len(dados_para_inserir)} registros em lote...")
+
+            sql_insert = text("""
+                              INSERT INTO public.medicoes_energia_bruto
+                                  (id_medicao, id_cliente, data_medicao, consumo_kwh, tipo_medicao)
+                              VALUES (:id_medicao, :id_cliente, :data_medicao, :consumo_kwh, :tipo_medicao)
+                              """)
+
+            # Executa a inserção DENTRO do mesmo 'with'
+            db.session.execute(sql_insert, dados_para_inserir)
+
+        # FIM DO 'with db.session.begin()'
+        # Se chegou aqui, o commit foi feito automaticamente.
+
+        total_inserido = len(dados_para_inserir)
+        logging.info(f"Sucesso! {total_inserido} registros inseridos.")
+
+        return jsonify({
+            "status": "sucesso",
+            "registros_inseridos": total_inserido,
+            "ultimo_id_medicao_inserido": proximo_id_medicao - 1
+        }), 201
+
+    except Exception as e:
+        # O 'with db.session.begin()' faz o rollback automaticamente em caso de exceção.
+        logging.error(f"Erro na operação de inserção em lote: {e}")
+        return jsonify({"status": "erro", "mensagem": str(e)}), 500
+
+@app.route('/gerar-medicoes-lote-nov-dez', methods=['POST'])
+def gerar_medicoes_lote_nov_dez():
+    """
+    Gera e insere dados mock (NOV e DEZ) para a tabela medicoes_energia_bruto
+    para clientes de 1001 a 1050.
+    """
+    logging.info("Iniciando geração de medições em lote (Nov/Dez)...")
+
+    dados_para_inserir = []
+
+    # --- Regras de Negócio (Nov/Dez) ---
+    CLIENTE_ID_INICIAL = 1001
+    CLIENTE_ID_FINAL = 1050
+    MESES_PARA_GERAR = [11, 12]  # Apenas Novembro e Dezembro
+    ANO_GERACAO = 2025
+    CONSUMO_MIN = 400.0
+    CONSUMO_MAX = 2000.0
+    TIPO_MEDICAO_FIXO = "Estimada"  # Novo tipo
+    # ------------------------------------
+
+    try:
+        # Inicia a transação única para SELECT MAX e INSERT
+        with db.session.begin():
+
+            # 1. Buscar o último id_medicao da tabela
+            sql_max_id = text("SELECT MAX(id_medicao) FROM public.medicoes_energia_bruto")
+            resultado = db.session.execute(sql_max_id).scalar()
+
+            proximo_id_medicao = (resultado or 0) + 1
+
+            logging.info(f"Iniciando geração (Nov/Dez). Próximo id_medicao: {proximo_id_medicao}")
+
+            # 2. Gerar os dados mock em memória
+            # 50 usuários (1001 a 1050)
+            for id_cliente in range(CLIENTE_ID_INICIAL, CLIENTE_ID_FINAL + 1):
+                # 2 meses (11 e 12)
+                for mes in MESES_PARA_GERAR:
+                    data_medicao_str = f"{ANO_GERACAO}-{mes:02d}-01"
+
+                    # Usa o 'fake' global com a nova faixa de consumo
+                    consumo_kwh_val = round(fake.pyfloat(min_value=CONSUMO_MIN, max_value=CONSUMO_MAX, right_digits=2),
+                                            2)
+
+                    dados_para_inserir.append({
+                        "id_medicao": proximo_id_medicao,
+                        "id_cliente": id_cliente,
+                        "data_medicao": data_medicao_str,
+                        "consumo_kwh": consumo_kwh_val,
+                        "tipo_medicao": TIPO_MEDICAO_FIXO
+                    })
+
+                    # OBRIGATÓRIO: Incrementa o ID para o *próximo registro*
+                    proximo_id_medicao += 1
+
+            # 3. Inserir todos os dados em lote
+            if not dados_para_inserir:
+                logging.warning("Nenhum dado (Nov/Dez) foi gerado para inserção.")
+                return jsonify({"status": "aviso", "mensagem": "Nenhum dado foi gerado."}), 200
+
+            total_a_inserir = len(dados_para_inserir)  # Deve ser 100 (50 clientes * 2 meses)
+            logging.info(f"Pronto para inserir {total_a_inserir} registros (Nov/Dez) em lote...")
+
+            sql_insert = text("""
+                              INSERT INTO public.medicoes_energia_bruto
+                                  (id_medicao, id_cliente, data_medicao, consumo_kwh, tipo_medicao)
+                              VALUES (:id_medicao, :id_cliente, :data_medicao, :consumo_kwh, :tipo_medicao)
+                              """)
+
+            # Executa a inserção DENTRO do mesmo 'with'
+            db.session.execute(sql_insert, dados_para_inserir)
+
+        # FIM DO 'with db.session.begin()' - Commit automático
+
+        logging.info(f"Sucesso! {total_a_inserir} registros (Nov/Dez) inseridos.")
+
+        return jsonify({
+            "status": "sucesso",
+            "registros_inseridos": total_a_inserir,
+            "ultimo_id_medicao_inserido": proximo_id_medicao - 1
+        }), 201
+
+    except Exception as e:
+        # Rollback automático em caso de exceção
+        logging.error(f"Erro na operação de inserção em lote (Nov/Dez): {e}")
+        return jsonify({"status": "erro", "mensagem": str(e)}), 500
+
+
+@app.route('/gerar-perdas-lote-jan-jul', methods=['POST'])
+def gerar_perdas_lote_jan_jul():
+    """
+    Gera e insere dados mock de PERDAS (Jan a Jul/2025) para BA, SP, MG.
+    """
+    logging.info("Iniciando geração de PERDAS de energia em lote (Jan-Jul)...")
+
+    dados_para_inserir = []
+
+    # --- Regras de Negócio (Perdas) ---
+    ESTADOS_ALVO = ['BA', 'SP', 'MG']
+    MES_INICIAL = 1
+    MES_FINAL = 7
+    ANO_GERACAO = 2025
+    # ------------------------------------
+
+    try:
+        # Inicia a transação única para SELECT MAX e INSERT
+        with db.session.begin():
+
+            # 1. Buscar o último id_perda
+            sql_max_id = text("SELECT MAX(id_perda) FROM public.perdas_energia_bruto")
+            resultado = db.session.execute(sql_max_id).scalar()
+
+            # Define o próximo ID, tratando caso a tabela esteja vazia
+            proximo_id_perda = (resultado or 0) + 1
+
+            logging.info(f"Iniciando geração de Perdas. Próximo id_perda: {proximo_id_perda}")
+
+            # 2. Gerar os dados mock em memória
+            # Loop pelos 3 estados
+            for estado in ESTADOS_ALVO:
+                # Loop pelos 7 meses (1 ao 7)
+                for mes in range(MES_INICIAL, MES_FINAL + 1):
+                    # Gera uma data com dia aleatório dentro do mês/ano corretos
+                    primeiro_dia_mes = date(ANO_GERACAO, mes, 1)
+                    # Pega o número do último dia do mês (ex: 31, 28, 31, 30...)
+                    ultimo_dia_num = calendar.monthrange(ANO_GERACAO, mes)[1]
+                    ultimo_dia_mes = date(ANO_GERACAO, mes, ultimo_dia_num)
+
+                    # Usa o Faker para pegar uma data aleatória nesse intervalo
+                    data_perda_obj = fake.date_between_dates(date_start=primeiro_dia_mes, date_end=ultimo_dia_mes)
+                    data_perda_str = data_perda_obj.strftime('%Y-%m-%d')
+
+                    # Gera perdas com 'random.randint' (pois 'random' já está importado no seu código)
+                    perda_tec = random.randint(500, 1100)
+                    perda_nao_tec = random.randint(400, 900)
+
+                    dados_para_inserir.append({
+                        "id_perda": proximo_id_perda,
+                        "data_perda": data_perda_str,
+                        "estado": estado,
+                        "perda_tecnica_kwh": perda_tec,
+                        "perda_nao_tecnica_kwh": perda_nao_tec
+                    })
+
+                    # OBRIGATÓRIO: Incrementa o ID para o *próximo registro*
+                    proximo_id_perda += 1
+
+            # 3. Inserir todos os dados em lote
+            # Total deve ser 21 (3 estados * 7 meses)
+            total_a_inserir = len(dados_para_inserir)
+            if total_a_inserir == 0:
+                logging.warning("Nenhum dado de Perda (Jan-Jul) foi gerado.")
+                return jsonify({"status": "aviso", "mensagem": "Nenhum dado foi gerado."}), 200
+
+            logging.info(f"Pronto para inserir {total_a_inserir} registros (Perdas Jan-Jul) em lote...")
+
+            # SQL baseado no seu exemplo de INSERT
+            sql_insert = text("""
+                              INSERT INTO public.perdas_energia_bruto
+                              (id_perda, data_perda, estado, perda_tecnica_kwh, perda_nao_tecnica_kwh)
+                              VALUES (:id_perda, :data_perda, :estado, :perda_tecnica_kwh, :perda_nao_tecnica_kwh)
+                              """)
+
+            # Executa a inserção DENTRO do mesmo 'with'
+            db.session.execute(sql_insert, dados_para_inserir)
+
+        # FIM DO 'with db.session.begin()' - Commit automático
+
+        logging.info(f"Sucesso! {total_a_inserir} registros (Perdas Jan-Jul) inseridos.")
+
+        return jsonify({
+            "status": "sucesso",
+            "registros_inseridos": total_a_inserir,
+            "ultimo_id_perda_inserido": proximo_id_perda - 1
+        }), 201
+
+    except Exception as e:
+        # Rollback automático em caso de exceção
+        logging.error(f"Erro na operação de inserção em lote (Perdas Jan-Jul): {e}")
+        return jsonify({"status": "erro", "mensagem": str(e)}), 500
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    with app.app_context():
+        logging.info("Executando setup inicial da aplicação...")
+        setup_dimensoes_em_memoria()
+    app.run(debug=True, use_reloader=False)
+
+@app.before_request
+def garantir_dados_carregados():
+    if not DADOS_BASE.get('localizacoes'):
+        logging.info("DADOS_BASE vazio — executando setup_dimensoes_em_memoria() novamente...")
+        setup_dimensoes_em_memoria()

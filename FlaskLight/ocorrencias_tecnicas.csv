@@ -1,0 +1,501 @@
+id_ocorrencia,data_ocorrencia,cidade,estado,tipo_ocorrencia,tempo_reparo_h
+1,2024-12-02,Dias do Sul,BA,Queda de energia,5.7
+2,2024-08-11,Peixoto,BA,Falta de fase,5.8
+3,2024-01-19,Ferreira Paulista,BA,Manutenção preventiva,0.7
+4,2024-11-14,Rezende,BA,Falta de fase,4.4
+5,2024-04-18,Teixeira,MG,Manutenção preventiva,1.7
+6,2024-07-19,Nunes dos Dourados,BA,Queda de energia,4.4
+7,2024-10-30,da Luz,MG,Manutenção preventiva,5.3
+8,2024-06-11,da Mota de da Conceição,BA,Manutenção preventiva,1.1
+9,2024-01-02,Cardoso do Norte,SP,Queda de energia,1.8
+10,2024-10-24,Alves de Cardoso,SP,Manutenção preventiva,0.6
+11,2024-02-10,Ribeiro,SP,Falta de fase,0.7
+12,2024-11-28,Moura do Norte,MG,Manutenção preventiva,0.7
+13,2024-08-31,Santos do Campo,BA,Queda de energia,4.9
+14,2024-07-21,da Paz Paulista,MG,Manutenção preventiva,2.1
+15,2024-11-21,Monteiro do Galho,BA,Queda de energia,3.2
+16,2024-05-28,Aragão,SP,Queda de energia,4.8
+17,2024-02-04,Nascimento,MG,Falta de fase,3.2
+18,2024-08-14,Peixoto do Sul,BA,Queda de energia,2.9
+19,2024-08-01,Moreira,MG,Manutenção preventiva,0.6
+20,2024-03-22,Almeida,MG,Falta de fase,3.6
+21,2024-10-17,da Rocha do Amparo,SP,Falta de fase,1.2
+22,2024-03-28,Fernandes,SP,Manutenção preventiva,4.7
+23,2024-04-16,da Costa do Amparo,SP,Manutenção preventiva,1.9
+24,2024-02-24,Porto,SP,Falta de fase,4.2
+25,2024-04-23,da Cruz,SP,Queda de energia,4.1
+26,2024-08-16,Costa,BA,Falta de fase,3.9
+27,2024-01-30,Barbosa do Campo,BA,Falta de fase,2.0
+28,2024-07-20,Cunha do Sul,SP,Falta de fase,2.0
+29,2024-02-14,Fogaça de Farias,SP,Queda de energia,5.2
+30,2024-01-11,das Neves,SP,Manutenção preventiva,0.6
+31,2024-02-21,Lima da Mata,MG,Manutenção preventiva,1.5
+32,2024-06-07,Novaes,SP,Manutenção preventiva,3.9
+33,2024-10-02,Moura,BA,Queda de energia,5.0
+34,2024-07-25,Dias de Pires,BA,Queda de energia,2.5
+35,2024-05-03,Caldeira da Prata,MG,Manutenção preventiva,4.1
+36,2024-11-20,Moura,BA,Manutenção preventiva,3.6
+37,2024-09-09,Dias,SP,Manutenção preventiva,0.9
+38,2024-11-02,Barbosa,MG,Manutenção preventiva,3.9
+39,2024-07-25,Oliveira,MG,Queda de energia,5.0
+40,2024-12-09,Moura,BA,Manutenção preventiva,6.0
+41,2024-06-16,da Costa de da Mota,SP,Falta de fase,0.7
+42,2024-12-09,Ribeiro das Pedras,SP,Manutenção preventiva,4.1
+43,2024-05-19,Porto,SP,Queda de energia,2.8
+44,2024-04-09,Monteiro,MG,Falta de fase,0.6
+45,2024-09-07,da Rosa,BA,Falta de fase,3.9
+46,2024-12-10,Castro,BA,Falta de fase,1.2
+47,2024-02-11,da Mota do Campo,BA,Queda de energia,2.6
+48,2024-04-26,da Mota,SP,Manutenção preventiva,1.9
+49,2024-07-17,Azevedo de Minas,MG,Queda de energia,2.5
+50,2024-02-14,Vieira,MG,Queda de energia,3.2
+51,2024-04-28,Almeida de Nogueira,BA,Falta de fase,2.5
+52,2024-10-01,Cunha,BA,Falta de fase,3.5
+53,2024-12-23,Pereira dos Dourados,MG,Queda de energia,1.8
+54,2024-12-12,Costa,BA,Falta de fase,4.0
+55,2024-01-29,Nunes,MG,Queda de energia,5.2
+56,2024-11-26,Azevedo,MG,Falta de fase,1.7
+57,2024-06-17,Costa,BA,Manutenção preventiva,3.3
+58,2024-04-29,Pereira de da Paz,MG,Manutenção preventiva,4.1
+59,2024-11-04,Lima,MG,Manutenção preventiva,3.6
+60,2024-04-20,Farias,BA,Falta de fase,2.5
+61,2024-12-28,Ribeiro,BA,Falta de fase,4.0
+62,2024-08-05,Pires,BA,Manutenção preventiva,0.7
+63,2024-11-28,Fogaça das Pedras,MG,Queda de energia,2.5
+64,2024-06-11,Azevedo dos Dourados,BA,Queda de energia,3.4
+65,2024-02-05,Mendes do Norte,BA,Manutenção preventiva,0.6
+66,2024-11-05,Monteiro de Cavalcanti,MG,Falta de fase,3.3
+67,2024-11-30,Alves do Sul,MG,Queda de energia,4.1
+68,2024-02-11,Ferreira da Mata,BA,Queda de energia,4.7
+69,2024-05-06,Cavalcanti,BA,Queda de energia,1.1
+70,2024-11-27,da Rosa,MG,Falta de fase,5.9
+71,2024-10-13,Barros,MG,Queda de energia,3.8
+72,2024-02-05,Gonçalves de Nogueira,SP,Queda de energia,2.5
+73,2024-11-20,Cunha de Minas,MG,Manutenção preventiva,1.9
+74,2024-03-11,da Costa de Lima,MG,Falta de fase,3.7
+75,2024-02-17,Teixeira de Minas,SP,Manutenção preventiva,5.3
+76,2024-10-27,Mendes,BA,Queda de energia,3.4
+77,2024-04-14,da Rosa das Flores,SP,Falta de fase,4.1
+78,2024-03-30,Cavalcanti,MG,Falta de fase,2.5
+79,2024-05-09,da Rosa dos Dourados,SP,Manutenção preventiva,2.6
+80,2024-11-30,Dias do Oeste,SP,Manutenção preventiva,2.1
+81,2024-10-28,da Mata,SP,Falta de fase,4.4
+82,2024-07-06,Carvalho das Pedras,SP,Falta de fase,2.5
+83,2024-02-05,Porto Paulista,SP,Manutenção preventiva,1.5
+84,2024-09-05,Mendes,SP,Queda de energia,2.5
+85,2024-10-06,da Mota,BA,Falta de fase,5.2
+86,2024-01-15,Novaes,SP,Queda de energia,4.6
+87,2024-04-07,Carvalho,SP,Manutenção preventiva,2.3
+88,2024-02-12,Castro,SP,Falta de fase,5.5
+89,2024-03-06,Santos,SP,Manutenção preventiva,0.9
+90,2024-10-20,Ferreira,MG,Falta de fase,0.8
+91,2024-03-06,Pires,SP,Falta de fase,1.2
+92,2024-11-26,Souza do Norte,SP,Manutenção preventiva,1.1
+93,2024-10-03,Vieira de Goiás,SP,Manutenção preventiva,1.0
+94,2024-10-01,Teixeira dos Dourados,BA,Queda de energia,4.1
+95,2024-01-13,Ramos,SP,Manutenção preventiva,3.8
+96,2024-07-17,Viana,MG,Manutenção preventiva,4.1
+97,2024-03-02,Nogueira de Duarte,BA,Queda de energia,4.3
+98,2024-05-26,Viana de Minas,MG,Manutenção preventiva,4.7
+99,2024-12-30,Rezende,BA,Queda de energia,1.6
+100,2024-03-18,da Conceição de Gonçalves,BA,Queda de energia,3.9
+101,2024-05-04,da Costa das Flores,SP,Manutenção preventiva,3.7
+102,2024-11-26,da Conceição das Pedras,SP,Queda de energia,5.7
+103,2024-05-03,Fernandes,BA,Queda de energia,1.8
+104,2024-07-23,Dias de Costela,SP,Queda de energia,0.8
+105,2024-04-21,Lopes,SP,Manutenção preventiva,4.1
+106,2024-03-12,da Paz de Pereira,BA,Manutenção preventiva,4.6
+107,2024-12-11,da Paz,BA,Queda de energia,2.1
+108,2024-07-19,Teixeira,MG,Manutenção preventiva,3.6
+109,2024-11-30,da Cunha da Praia,BA,Falta de fase,0.8
+110,2024-07-02,da Mata,MG,Queda de energia,5.8
+111,2024-08-25,Cunha do Oeste,MG,Falta de fase,1.1
+112,2024-10-11,Moreira dos Dourados,SP,Manutenção preventiva,0.9
+113,2024-08-18,Gomes,SP,Falta de fase,0.7
+114,2024-08-19,Vieira,BA,Manutenção preventiva,2.8
+115,2024-07-23,Aragão das Pedras,BA,Manutenção preventiva,1.0
+116,2024-11-30,Gomes,MG,Queda de energia,4.6
+117,2024-05-05,Martins do Campo,MG,Falta de fase,5.4
+118,2024-01-21,da Rocha,SP,Queda de energia,1.9
+119,2024-07-07,Farias,BA,Falta de fase,4.0
+120,2024-09-29,da Rocha das Pedras,BA,Manutenção preventiva,0.7
+121,2024-12-20,da Conceição,BA,Manutenção preventiva,2.6
+122,2024-09-05,Jesus de Melo,BA,Queda de energia,2.1
+123,2024-11-26,Farias da Serra,SP,Falta de fase,1.8
+124,2024-04-10,Silva de Goiás,SP,Falta de fase,4.0
+125,2024-03-18,Freitas,MG,Manutenção preventiva,1.2
+126,2024-01-13,Duarte,SP,Queda de energia,5.2
+127,2024-09-27,Rezende,MG,Manutenção preventiva,4.2
+128,2024-02-28,Moreira,SP,Manutenção preventiva,4.4
+129,2024-03-02,Fogaça de Dias,SP,Queda de energia,5.6
+130,2024-03-11,Cunha do Sul,BA,Falta de fase,5.7
+131,2024-05-14,Fogaça,MG,Falta de fase,3.5
+132,2024-11-21,Costela,MG,Manutenção preventiva,3.2
+133,2024-10-21,Novaes,MG,Falta de fase,2.3
+134,2024-07-23,Alves das Pedras,SP,Queda de energia,4.4
+135,2024-12-10,Novaes,BA,Falta de fase,3.5
+136,2024-12-14,Cardoso do Sul,SP,Falta de fase,5.6
+137,2024-03-16,Costa da Prata,BA,Manutenção preventiva,1.8
+138,2024-04-11,Cunha,SP,Falta de fase,2.2
+139,2024-04-28,Costa de Moraes,MG,Queda de energia,2.2
+140,2024-04-03,Alves,SP,Manutenção preventiva,4.9
+141,2024-10-18,Freitas,MG,Queda de energia,1.0
+142,2024-08-28,da Costa Alegre,BA,Falta de fase,3.0
+143,2024-07-15,da Rocha,MG,Falta de fase,2.9
+144,2024-09-04,Cardoso de Almeida,MG,Manutenção preventiva,0.9
+145,2024-03-20,da Costa,MG,Queda de energia,2.8
+146,2024-11-03,Ramos,MG,Falta de fase,3.3
+147,2024-02-26,Caldeira de Jesus,BA,Falta de fase,0.9
+148,2024-02-04,Martins do Amparo,SP,Manutenção preventiva,3.3
+149,2024-08-14,Mendes,SP,Falta de fase,5.8
+150,2024-08-15,Sales,SP,Falta de fase,5.9
+151,2024-02-26,Silveira,SP,Falta de fase,3.4
+152,2024-11-03,da Rosa,MG,Queda de energia,3.3
+153,2024-09-20,da Rosa,BA,Queda de energia,2.1
+154,2024-11-14,Castro do Amparo,BA,Queda de energia,6.0
+155,2024-04-05,Campos,SP,Falta de fase,2.0
+156,2024-05-18,Cardoso do Norte,SP,Manutenção preventiva,3.0
+157,2024-02-20,Gonçalves dos Dourados,BA,Manutenção preventiva,0.5
+158,2024-06-05,da Cruz,BA,Manutenção preventiva,2.4
+159,2024-07-08,Ramos,MG,Queda de energia,0.9
+160,2024-01-11,Ribeiro,BA,Queda de energia,4.6
+161,2024-03-16,Melo,BA,Queda de energia,3.6
+162,2024-10-23,Novaes,MG,Queda de energia,3.6
+163,2024-02-03,da Luz da Praia,MG,Falta de fase,2.1
+164,2024-03-27,Nascimento,MG,Manutenção preventiva,5.0
+165,2024-05-27,Campos de da Rosa,BA,Manutenção preventiva,0.5
+166,2024-04-22,Cunha Verde,BA,Queda de energia,2.3
+167,2024-09-10,Jesus Verde,BA,Manutenção preventiva,4.1
+168,2024-03-07,Costa,MG,Manutenção preventiva,5.5
+169,2024-05-04,Vieira de Minas,BA,Queda de energia,1.8
+170,2024-08-07,da Mota de Minas,BA,Queda de energia,3.5
+171,2024-06-16,Vieira,MG,Queda de energia,3.5
+172,2024-10-08,Farias de Dias,SP,Queda de energia,5.3
+173,2024-07-06,Monteiro,SP,Falta de fase,0.8
+174,2024-06-10,Gonçalves,BA,Manutenção preventiva,2.8
+175,2024-06-20,Silveira,MG,Falta de fase,1.5
+176,2024-04-19,Costa do Amparo,MG,Manutenção preventiva,0.6
+177,2024-07-06,da Rosa,BA,Falta de fase,1.3
+178,2024-04-07,Sales da Serra,BA,Queda de energia,5.9
+179,2024-12-17,da Costa das Pedras,SP,Falta de fase,1.7
+180,2024-03-25,Costela de Silveira,MG,Queda de energia,5.6
+181,2024-10-21,Santos,BA,Queda de energia,1.6
+182,2024-10-01,da Cunha,MG,Falta de fase,5.6
+183,2024-12-25,da Mota,BA,Manutenção preventiva,4.1
+184,2024-09-08,Almeida,SP,Falta de fase,1.1
+185,2024-06-10,Monteiro,BA,Queda de energia,3.7
+186,2024-06-12,Alves,SP,Queda de energia,2.3
+187,2024-07-17,Moraes de Minas,SP,Manutenção preventiva,2.6
+188,2024-09-02,Costa de Pires,BA,Manutenção preventiva,2.9
+189,2024-08-11,Peixoto Alegre,BA,Manutenção preventiva,2.8
+190,2024-02-17,da Luz,SP,Queda de energia,4.2
+191,2024-09-01,Castro,MG,Falta de fase,4.7
+192,2024-10-29,Araújo de Moura,MG,Manutenção preventiva,2.3
+193,2024-01-18,da Paz,SP,Queda de energia,5.6
+194,2024-12-28,Gomes do Campo,SP,Falta de fase,5.7
+195,2024-12-07,Lopes,BA,Manutenção preventiva,0.7
+196,2024-05-08,Costela,BA,Falta de fase,0.6
+197,2024-05-31,Viana,SP,Falta de fase,2.8
+198,2024-07-14,Souza das Flores,SP,Queda de energia,3.7
+199,2024-03-06,Dias,MG,Queda de energia,2.0
+200,2024-03-14,Ramos Alegre,MG,Queda de energia,1.9
+201,2024-09-30,Novaes,MG,Falta de fase,4.2
+202,2024-02-15,da Conceição de Martins,SP,Manutenção preventiva,3.8
+203,2024-09-08,Cunha,SP,Manutenção preventiva,1.4
+204,2024-07-07,da Paz,MG,Manutenção preventiva,5.4
+205,2024-01-21,Freitas,MG,Queda de energia,4.2
+206,2024-11-10,Dias,BA,Manutenção preventiva,2.5
+207,2024-04-27,Duarte,BA,Manutenção preventiva,4.3
+208,2024-10-21,Cardoso do Sul,SP,Queda de energia,1.1
+209,2024-09-01,da Luz de Azevedo,BA,Manutenção preventiva,3.1
+210,2024-06-07,Dias da Prata,SP,Manutenção preventiva,1.4
+211,2024-07-29,Moraes,SP,Manutenção preventiva,0.7
+212,2024-09-21,Nunes Paulista,SP,Falta de fase,2.4
+213,2024-06-10,Moraes,MG,Falta de fase,1.3
+214,2024-02-28,Aragão,BA,Queda de energia,4.0
+215,2024-04-03,Peixoto Verde,BA,Queda de energia,4.2
+216,2024-05-25,Pereira,BA,Falta de fase,1.3
+217,2024-10-12,da Cunha da Praia,BA,Queda de energia,0.6
+218,2024-07-19,Moreira Paulista,MG,Queda de energia,4.9
+219,2024-12-02,Lima de Cunha,BA,Manutenção preventiva,0.5
+220,2024-06-18,Viana,BA,Queda de energia,2.4
+221,2024-02-09,Duarte da Mata,MG,Queda de energia,3.2
+222,2024-06-13,da Conceição,BA,Manutenção preventiva,5.0
+223,2024-12-05,Vieira,BA,Manutenção preventiva,5.1
+224,2024-06-23,Moreira da Serra,MG,Falta de fase,4.5
+225,2024-11-10,Vieira,MG,Queda de energia,1.9
+226,2024-09-06,Monteiro,MG,Manutenção preventiva,4.5
+227,2024-02-23,Fernandes da Serra,MG,Queda de energia,1.9
+228,2024-06-15,Barros do Amparo,SP,Queda de energia,1.7
+229,2024-10-24,da Rocha,MG,Falta de fase,3.5
+230,2024-04-22,da Rosa,BA,Falta de fase,4.2
+231,2024-02-08,Gomes,BA,Falta de fase,0.8
+232,2024-12-03,Gonçalves,BA,Falta de fase,0.8
+233,2024-03-08,Caldeira,BA,Falta de fase,4.8
+234,2024-01-03,Mendes,SP,Manutenção preventiva,5.2
+235,2024-04-13,da Cruz,SP,Falta de fase,3.8
+236,2024-02-07,Ferreira,SP,Manutenção preventiva,2.9
+237,2024-06-26,Moura da Prata,BA,Falta de fase,5.1
+238,2024-10-29,Freitas Alegre,BA,Manutenção preventiva,4.5
+239,2024-01-18,Pires,MG,Queda de energia,3.7
+240,2024-11-12,Cardoso,MG,Falta de fase,2.3
+241,2024-04-19,Nunes,BA,Manutenção preventiva,1.6
+242,2024-02-28,Costela de das Neves,MG,Falta de fase,2.8
+243,2024-08-27,Gonçalves,MG,Manutenção preventiva,2.1
+244,2024-02-07,Cardoso do Campo,BA,Manutenção preventiva,2.4
+245,2024-08-21,Dias,SP,Falta de fase,3.3
+246,2024-08-31,das Neves,BA,Manutenção preventiva,1.4
+247,2024-11-20,Nascimento das Pedras,BA,Queda de energia,4.9
+248,2024-06-04,Novaes de Melo,MG,Falta de fase,1.3
+249,2024-10-26,Farias da Praia,MG,Queda de energia,3.1
+250,2024-03-02,Ramos,BA,Manutenção preventiva,4.6
+251,2024-10-10,da Cunha do Galho,SP,Manutenção preventiva,3.2
+252,2024-11-02,Barros,BA,Falta de fase,2.5
+253,2024-01-30,Lima do Oeste,SP,Queda de energia,3.1
+254,2024-08-08,Moura do Campo,SP,Queda de energia,5.2
+255,2024-01-10,Gomes,BA,Falta de fase,5.9
+256,2024-02-27,Barros,BA,Queda de energia,4.0
+257,2024-08-31,Correia de Goiás,BA,Falta de fase,4.9
+258,2024-11-08,Oliveira das Pedras,SP,Falta de fase,0.6
+259,2024-08-18,Moreira,MG,Manutenção preventiva,5.3
+260,2024-06-30,Freitas do Galho,SP,Manutenção preventiva,5.7
+261,2024-01-13,Almeida de Almeida,SP,Queda de energia,3.7
+262,2024-02-05,Aragão,SP,Falta de fase,4.6
+263,2024-07-04,Alves Verde,MG,Falta de fase,3.3
+264,2024-03-27,Gomes,SP,Falta de fase,2.1
+265,2024-10-25,Moura da Serra,SP,Falta de fase,5.2
+266,2024-05-10,Costela de Minas,SP,Manutenção preventiva,3.8
+267,2024-12-16,Nascimento,MG,Queda de energia,3.7
+268,2024-01-17,Carvalho da Praia,SP,Manutenção preventiva,4.1
+269,2024-10-11,Costela,MG,Falta de fase,5.2
+270,2024-02-17,Sales,MG,Queda de energia,4.5
+271,2024-04-24,Porto,BA,Queda de energia,1.7
+272,2024-11-11,Farias Alegre,BA,Falta de fase,3.1
+273,2024-03-24,da Cunha,BA,Falta de fase,5.9
+274,2024-06-25,Correia Grande,MG,Manutenção preventiva,3.6
+275,2024-02-16,Farias do Sul,BA,Manutenção preventiva,5.7
+276,2024-02-03,Mendes do Galho,BA,Falta de fase,5.0
+277,2024-10-26,Souza,BA,Falta de fase,4.2
+278,2024-01-21,Ramos,MG,Manutenção preventiva,2.4
+279,2024-02-18,Castro Paulista,SP,Queda de energia,2.2
+280,2024-04-13,Rodrigues,BA,Queda de energia,4.0
+281,2024-05-13,Correia do Campo,BA,Queda de energia,2.9
+282,2024-07-25,Oliveira de Pereira,BA,Manutenção preventiva,4.9
+283,2024-11-03,Dias de Almeida,BA,Falta de fase,4.7
+284,2024-12-29,Peixoto das Pedras,MG,Queda de energia,2.2
+285,2024-04-19,Nogueira da Praia,SP,Falta de fase,4.4
+286,2024-11-21,Alves,SP,Manutenção preventiva,3.2
+287,2024-08-01,da Cunha,BA,Manutenção preventiva,2.3
+288,2024-05-16,da Rosa,SP,Falta de fase,2.8
+289,2024-10-04,Porto,BA,Falta de fase,5.4
+290,2024-06-07,Novaes,BA,Falta de fase,2.5
+291,2024-06-12,Caldeira do Amparo,SP,Falta de fase,2.1
+292,2024-05-31,Moreira das Pedras,SP,Queda de energia,2.4
+293,2024-10-12,da Mata dos Dourados,MG,Falta de fase,1.7
+294,2024-12-03,das Neves de Minas,BA,Queda de energia,3.5
+295,2024-07-04,Caldeira da Mata,SP,Manutenção preventiva,1.3
+296,2024-03-26,Lima Paulista,MG,Queda de energia,5.0
+297,2024-12-12,das Neves,SP,Falta de fase,1.7
+298,2024-11-14,Caldeira do Amparo,SP,Queda de energia,3.8
+299,2024-07-29,da Conceição de Rezende,BA,Manutenção preventiva,1.2
+300,2024-12-07,Rezende de Ribeiro,MG,Falta de fase,5.9
+301,2024-06-11,da Costa,BA,Manutenção preventiva,3.0
+302,2024-03-28,Almeida,SP,Manutenção preventiva,5.0
+303,2024-11-18,Nunes da Mata,MG,Falta de fase,4.7
+304,2024-06-27,Caldeira,BA,Queda de energia,4.4
+305,2024-03-08,Aragão do Norte,MG,Manutenção preventiva,5.1
+306,2024-09-27,da Rocha,SP,Falta de fase,1.1
+307,2024-02-27,Oliveira,MG,Manutenção preventiva,4.2
+308,2024-04-04,Araújo,SP,Queda de energia,2.0
+309,2024-03-01,Silva,BA,Manutenção preventiva,4.8
+310,2024-07-28,Ribeiro das Flores,SP,Manutenção preventiva,5.8
+311,2024-09-18,Lima de Silveira,SP,Manutenção preventiva,5.5
+312,2024-11-19,Souza das Pedras,MG,Manutenção preventiva,1.1
+313,2024-01-19,Lima,MG,Queda de energia,2.5
+314,2024-01-25,Teixeira da Serra,BA,Falta de fase,2.5
+315,2024-02-24,Novaes,MG,Manutenção preventiva,1.2
+316,2024-08-27,Pinto,BA,Queda de energia,1.0
+317,2024-07-31,Moraes de Rocha,SP,Manutenção preventiva,2.6
+318,2024-07-28,Aragão de Nunes,SP,Manutenção preventiva,6.0
+319,2024-10-05,Correia,MG,Manutenção preventiva,3.6
+320,2024-03-13,Cardoso do Campo,SP,Queda de energia,3.9
+321,2024-02-13,Cardoso,SP,Manutenção preventiva,3.1
+322,2024-09-29,Vieira,BA,Manutenção preventiva,4.1
+323,2024-03-15,Teixeira,MG,Falta de fase,5.8
+324,2024-02-06,Sales,BA,Queda de energia,3.7
+325,2024-01-31,Jesus,SP,Falta de fase,0.9
+326,2024-03-11,Farias,SP,Falta de fase,3.2
+327,2024-07-21,Barbosa,SP,Falta de fase,6.0
+328,2024-02-29,Vieira dos Dourados,MG,Falta de fase,2.6
+329,2024-11-18,Oliveira de da Paz,SP,Manutenção preventiva,3.8
+330,2024-09-23,Castro,SP,Falta de fase,1.1
+331,2024-01-13,da Rocha,BA,Queda de energia,1.3
+332,2024-07-30,Mendes das Flores,MG,Manutenção preventiva,5.3
+333,2024-10-21,Freitas,SP,Falta de fase,2.2
+334,2024-07-25,Cardoso,BA,Falta de fase,2.2
+335,2024-09-06,Cavalcanti das Pedras,SP,Queda de energia,2.6
+336,2024-05-29,Lopes,BA,Queda de energia,5.8
+337,2024-03-13,Costela,SP,Falta de fase,1.0
+338,2024-04-22,Aragão,MG,Falta de fase,5.0
+339,2024-03-10,Aragão,MG,Falta de fase,2.4
+340,2024-02-24,Dias da Serra,BA,Falta de fase,5.2
+341,2024-06-21,Lima de Goiás,SP,Falta de fase,6.0
+342,2024-03-16,da Rosa,MG,Queda de energia,2.4
+343,2024-04-04,Jesus,SP,Queda de energia,1.2
+344,2024-11-11,Moreira do Oeste,MG,Manutenção preventiva,1.3
+345,2024-12-02,Cunha do Sul,BA,Manutenção preventiva,4.7
+346,2024-11-17,Correia,MG,Queda de energia,1.3
+347,2024-04-08,Pinto,SP,Manutenção preventiva,1.9
+348,2024-04-21,da Mota,SP,Falta de fase,1.6
+349,2024-10-03,Fogaça,SP,Manutenção preventiva,2.5
+350,2024-01-12,das Neves Grande,BA,Falta de fase,0.9
+351,2024-01-14,Gomes,BA,Falta de fase,5.2
+352,2024-01-17,Duarte,SP,Manutenção preventiva,5.2
+353,2024-10-04,Moreira,SP,Manutenção preventiva,2.8
+354,2024-03-04,Cavalcanti de Ribeiro,MG,Falta de fase,3.9
+355,2024-07-01,Carvalho,MG,Queda de energia,4.0
+356,2024-07-15,Azevedo das Pedras,MG,Manutenção preventiva,4.6
+357,2024-03-25,Duarte de Santos,SP,Manutenção preventiva,3.4
+358,2024-09-07,Cardoso,MG,Queda de energia,3.3
+359,2024-09-05,Duarte,SP,Manutenção preventiva,4.0
+360,2024-08-17,Peixoto,BA,Falta de fase,4.4
+361,2024-10-05,Silva,MG,Queda de energia,2.4
+362,2024-04-06,Ribeiro do Oeste,SP,Queda de energia,2.3
+363,2024-02-07,Gonçalves do Galho,SP,Falta de fase,2.0
+364,2024-10-22,Rodrigues dos Dourados,BA,Falta de fase,3.5
+365,2024-07-05,Nascimento do Sul,BA,Falta de fase,2.5
+366,2024-06-05,Gomes,BA,Queda de energia,3.5
+367,2024-06-26,Araújo das Flores,BA,Falta de fase,2.7
+368,2024-07-17,Farias do Galho,MG,Manutenção preventiva,5.1
+369,2024-12-28,Moraes,BA,Manutenção preventiva,0.9
+370,2024-12-03,Oliveira,SP,Falta de fase,3.6
+371,2024-09-11,Nogueira,SP,Manutenção preventiva,3.7
+372,2024-07-02,Gomes de Melo,SP,Manutenção preventiva,2.6
+373,2024-11-15,Aragão Verde,SP,Queda de energia,2.8
+374,2024-02-26,Peixoto,SP,Falta de fase,4.9
+375,2024-06-05,Correia,BA,Manutenção preventiva,2.0
+376,2024-09-03,Viana da Serra,SP,Falta de fase,5.3
+377,2024-08-04,Cavalcanti de Monteiro,BA,Falta de fase,5.4
+378,2024-05-13,Correia das Pedras,BA,Manutenção preventiva,4.1
+379,2024-01-20,Souza de Dias,BA,Manutenção preventiva,4.8
+380,2024-09-12,Moura do Norte,BA,Queda de energia,3.9
+381,2024-02-28,Sales do Campo,MG,Queda de energia,3.4
+382,2024-12-19,Fogaça,MG,Queda de energia,5.8
+383,2024-10-21,Porto de Costa,MG,Manutenção preventiva,2.1
+384,2024-03-05,da Cunha,MG,Queda de energia,1.3
+385,2024-03-15,Campos da Mata,MG,Falta de fase,2.1
+386,2024-02-05,Fogaça,SP,Queda de energia,3.9
+387,2024-06-09,Moraes do Sul,MG,Queda de energia,1.5
+388,2024-07-16,Farias da Praia,SP,Queda de energia,5.5
+389,2024-09-07,da Mata,SP,Falta de fase,2.8
+390,2024-08-03,Caldeira do Sul,BA,Falta de fase,5.2
+391,2024-04-03,Correia do Oeste,BA,Manutenção preventiva,1.9
+392,2024-02-28,das Neves Paulista,BA,Queda de energia,2.2
+393,2024-07-06,Santos,MG,Falta de fase,0.8
+394,2024-12-08,da Cunha,SP,Falta de fase,1.9
+395,2024-05-16,da Mota,MG,Falta de fase,3.2
+396,2024-05-11,Barbosa,BA,Manutenção preventiva,5.7
+397,2024-06-17,Rodrigues Paulista,BA,Manutenção preventiva,2.6
+398,2024-09-30,da Conceição do Sul,SP,Manutenção preventiva,4.0
+399,2024-10-20,Castro do Sul,SP,Queda de energia,2.9
+400,2024-11-25,Mendes do Sul,BA,Falta de fase,0.8
+401,2024-01-15,Vieira,MG,Manutenção preventiva,3.3
+402,2024-09-12,da Luz da Prata,MG,Manutenção preventiva,0.9
+403,2024-04-20,Rocha da Prata,SP,Falta de fase,5.4
+404,2024-09-30,Cavalcanti,BA,Falta de fase,4.6
+405,2024-07-28,Carvalho de Santos,MG,Queda de energia,2.6
+406,2024-12-02,Araújo do Campo,SP,Queda de energia,4.0
+407,2024-03-08,Cardoso do Norte,SP,Queda de energia,1.1
+408,2024-12-23,Fernandes,SP,Manutenção preventiva,4.4
+409,2024-01-02,Ribeiro de Minas,MG,Manutenção preventiva,5.0
+410,2024-07-13,Monteiro,SP,Falta de fase,5.0
+411,2024-09-23,Fernandes,MG,Queda de energia,2.1
+412,2024-01-15,Moraes,SP,Falta de fase,2.0
+413,2024-09-12,Moraes das Flores,MG,Queda de energia,3.4
+414,2024-12-03,Fogaça,BA,Queda de energia,5.8
+415,2024-12-16,Rezende,MG,Queda de energia,5.6
+416,2024-09-28,Sales do Sul,BA,Queda de energia,2.5
+417,2024-04-04,Ribeiro do Galho,SP,Falta de fase,4.8
+418,2024-02-29,Araújo,MG,Falta de fase,5.6
+419,2024-01-17,Costela,SP,Manutenção preventiva,1.9
+420,2024-10-15,da Rocha,BA,Queda de energia,5.1
+421,2024-07-01,Cardoso,SP,Falta de fase,2.0
+422,2024-11-05,Lopes,SP,Queda de energia,2.4
+423,2024-03-08,Sales,SP,Queda de energia,1.6
+424,2024-06-22,Souza Verde,BA,Manutenção preventiva,3.3
+425,2024-01-08,Duarte,BA,Manutenção preventiva,5.1
+426,2024-12-05,Nunes Alegre,MG,Falta de fase,3.4
+427,2024-07-14,Rodrigues,MG,Falta de fase,1.2
+428,2024-03-17,Teixeira,MG,Manutenção preventiva,1.9
+429,2024-08-02,Ribeiro,MG,Falta de fase,3.6
+430,2024-11-05,da Luz Alegre,SP,Falta de fase,3.7
+431,2024-02-03,Fernandes,BA,Manutenção preventiva,3.7
+432,2024-04-10,Barros das Flores,BA,Queda de energia,0.9
+433,2024-12-04,Fogaça de da Cunha,SP,Queda de energia,4.6
+434,2024-04-04,Duarte,MG,Manutenção preventiva,5.5
+435,2024-05-26,Viana,BA,Queda de energia,3.3
+436,2024-10-21,da Luz da Praia,SP,Queda de energia,4.5
+437,2024-02-21,Martins,SP,Manutenção preventiva,5.5
+438,2024-12-09,Correia,MG,Falta de fase,4.0
+439,2024-01-03,Pires,MG,Manutenção preventiva,4.2
+440,2024-07-26,Campos,BA,Manutenção preventiva,4.5
+441,2024-05-22,Pires,BA,Queda de energia,1.9
+442,2024-03-05,Melo do Campo,MG,Manutenção preventiva,3.7
+443,2024-09-13,Campos do Campo,BA,Queda de energia,5.1
+444,2024-08-01,Lima do Sul,MG,Manutenção preventiva,2.1
+445,2024-07-04,da Costa da Mata,SP,Falta de fase,5.4
+446,2024-12-28,Cavalcanti,SP,Queda de energia,3.9
+447,2024-03-23,Moreira,SP,Manutenção preventiva,2.8
+448,2024-02-26,Moraes de Goiás,BA,Queda de energia,3.9
+449,2024-09-08,Novaes de Nunes,MG,Manutenção preventiva,2.7
+450,2024-02-25,Porto do Norte,SP,Manutenção preventiva,5.1
+451,2024-10-26,Lopes,SP,Manutenção preventiva,3.2
+452,2024-01-08,Cardoso,BA,Queda de energia,5.5
+453,2024-07-16,Viana,BA,Queda de energia,3.3
+454,2024-03-07,Campos,SP,Falta de fase,4.1
+455,2024-06-18,da Costa de Fogaça,BA,Falta de fase,6.0
+456,2024-06-06,das Neves do Galho,BA,Falta de fase,1.3
+457,2024-04-26,Aragão Verde,BA,Falta de fase,4.6
+458,2024-02-12,da Cunha do Galho,BA,Manutenção preventiva,1.3
+459,2024-10-25,Campos,MG,Queda de energia,5.1
+460,2024-01-30,Araújo de Costela,BA,Manutenção preventiva,3.8
+461,2024-03-21,Pinto,BA,Queda de energia,5.7
+462,2024-05-26,Pinto das Pedras,MG,Queda de energia,5.3
+463,2024-10-02,da Paz de Novaes,BA,Manutenção preventiva,0.9
+464,2024-08-21,Pereira de Cardoso,BA,Manutenção preventiva,1.3
+465,2024-01-22,Pinto,SP,Queda de energia,3.8
+466,2024-02-10,Rodrigues,SP,Falta de fase,3.4
+467,2024-08-26,Ribeiro,SP,Falta de fase,1.4
+468,2024-04-27,das Neves,MG,Queda de energia,1.2
+469,2024-09-30,Novaes de Moraes,BA,Manutenção preventiva,3.6
+470,2024-10-23,Ribeiro de da Conceição,MG,Manutenção preventiva,0.8
+471,2024-12-04,Barros de Sales,MG,Queda de energia,5.3
+472,2024-07-13,Almeida,BA,Manutenção preventiva,4.9
+473,2024-10-13,Monteiro dos Dourados,BA,Queda de energia,4.8
+474,2024-03-07,Mendes,SP,Queda de energia,0.6
+475,2024-11-30,Silva,BA,Queda de energia,0.8
+476,2024-01-13,Rodrigues,MG,Manutenção preventiva,3.5
+477,2024-02-29,Gonçalves de da Rosa,SP,Falta de fase,6.0
+478,2024-12-12,Barros de Silva,MG,Queda de energia,2.4
+479,2024-06-26,Dias das Pedras,BA,Manutenção preventiva,2.4
+480,2024-11-08,da Mata,SP,Falta de fase,1.2
+481,2024-02-16,Cardoso das Pedras,BA,Queda de energia,4.2
+482,2024-11-20,Cardoso,SP,Falta de fase,4.1
+483,2024-08-22,Pinto,SP,Manutenção preventiva,1.1
+484,2024-10-12,Alves do Norte,SP,Falta de fase,3.1
+485,2024-11-29,Moura,BA,Falta de fase,4.2
+486,2024-07-06,Oliveira,SP,Manutenção preventiva,3.2
+487,2024-11-22,da Luz de Santos,SP,Queda de energia,4.2
+488,2024-02-22,da Costa,BA,Manutenção preventiva,5.0
+489,2024-06-28,Novaes,MG,Manutenção preventiva,4.3
+490,2024-01-13,Moura,BA,Queda de energia,3.9
+491,2024-10-05,da Cunha das Flores,BA,Queda de energia,5.2
+492,2024-01-18,da Cunha,SP,Manutenção preventiva,5.5
+493,2024-02-11,Farias Grande,BA,Queda de energia,2.6
+494,2024-10-26,Porto do Galho,BA,Queda de energia,1.5
+495,2024-10-26,da Costa,BA,Manutenção preventiva,5.0
+496,2024-08-21,da Mota,SP,Manutenção preventiva,1.7
+497,2024-06-23,Ramos de Goiás,BA,Manutenção preventiva,5.6
+498,2024-12-24,das Neves,SP,Manutenção preventiva,0.6
+499,2024-10-21,Souza Paulista,BA,Falta de fase,5.6
+500,2024-08-21,Cardoso dos Dourados,SP,Falta de fase,3.7
